@@ -1,4 +1,5 @@
 # my-rust-practice
+- [x] 【2022.09.13】[ownership](./ownership/)
 - [x] 【2022.09.11】[loops](./loops/)
 - [x] 【2022.09.11】[branches](./branches/)
 - [x] 【2022.09.11】[try_function](./try_function/)
