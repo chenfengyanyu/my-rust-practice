@@ -12,6 +12,10 @@
 - [x] 【2022.09.11】[try_function](./try_function/) 函数
 - [x] 【2022.09.13】[ownership](./ownership/) 所有权
 - [x] 【2022.09.16】[borrowing](./borrowing/) 借用
+- [x] 【2022.09.25】[dangling](./dangling/) 悬垂引用
+- [x] 【2022.09.26】[slice](./slice/) 切片
+
+
 
 
 
