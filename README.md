@@ -17,6 +17,7 @@
 - [x] 【2022.09.27】[struct](./struct-demo/) 结构体
 - [x] 【2022.09.29】[struct_demo2](./struct_demo2/) 结构体示例
 - [x] 【2022.10.01】[struct_demo3](./struct_demo3/) impl实现结构体
+- [x] 【2022.10.01】[associated_func](./associated_fun/) 关联函数
 
 
 
