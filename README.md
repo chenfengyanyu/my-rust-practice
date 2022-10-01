@@ -15,7 +15,9 @@
 - [x] 【2022.09.25】[dangling](./dangling/) 悬垂引用
 - [x] 【2022.09.26】[slice](./slice/) 切片
 - [x] 【2022.09.27】[struct](./struct-demo/) 结构体
-- [x] 【2022.09.29】[struct_demo](./struct_demo2/) 结构体示例
+- [x] 【2022.09.29】[struct_demo2](./struct_demo2/) 结构体示例
+- [x] 【2022.10.01】[struct_demo3](./struct_demo3/) impl实现结构体
+
 
 
 
