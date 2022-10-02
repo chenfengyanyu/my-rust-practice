@@ -23,6 +23,8 @@
 - [x] 【2022.10.01】[pub_struct](./pub_struct/) 定义公共结构体，[pub_enum](./pub_enum/) 定义公共枚举
 - [x] 【2022.10.02】[use_crate](./use_crate/) use 导入单元包，[outside_lib](./outside_lib/) 导入自定义包文件
 
+## 通用集合类型
+- [x] 【2022.10.02】[vector_demo](./vector_demo/) 动态数组 Vector
 
 
 
