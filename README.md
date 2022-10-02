@@ -1,4 +1,5 @@
 # my-rust-practice
+示例均来源于为《Rust 权威指南》，仅供学习参考。
 
 ## 入门示例
 - [x] 【2022.09.07】[first_demo](./first_demo/) Hello World
@@ -26,8 +27,9 @@
 ## 通用集合类型
 - [x] 【2022.10.02】[vector_demo](./vector_demo/) 动态数组 Vector
 - [x] 【2022.10.02】[string_demo](./string-demo/) 字符串 String
-- [x] 【2022.10.02】[hashmap_demo](./hashmap_demo/) 哈希映射 HashMap
+- [x] 【2022.10.02】[hashmap_demo](./hashmap_demo/) 哈希映射 HashMap，[hashmap_demo2](./hashmap_demo2/)示例：单词查找
 
+## 错误处理
 
 
 
