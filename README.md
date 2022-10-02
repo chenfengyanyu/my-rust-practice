@@ -20,8 +20,8 @@
 
 ## 包、单元包及模块
 - [x] 【2022.10.01】[lib_demo](./lib_demo/) 单元包
-- [x] 【2022.10.01】[pub_struct](./pub_struct/) 定义公共结构体
-- [x] 【2022.10.01】[pub_enum](./pub_enum/) 定义公共枚举
+- [x] 【2022.10.01】[pub_struct](./pub_struct/) 定义公共结构体，[pub_enum](./pub_enum/) 定义公共枚举
+- [x] 【2022.10.02】[use_crate](./use_crate/) use 导入单元包
 
 
 
