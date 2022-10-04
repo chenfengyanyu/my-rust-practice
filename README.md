@@ -30,6 +30,7 @@
 - [x] 【2022.10.02】[hashmap_demo](./hashmap_demo/) 哈希映射 HashMap，[hashmap_demo2](./hashmap_demo2/)示例：单词查找
 
 ## 错误处理
+- [x] 【2022.10.04】[panic_demo](./panic_demo/) 使用 panic
 
 
 
