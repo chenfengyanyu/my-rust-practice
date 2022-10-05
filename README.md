@@ -35,6 +35,7 @@
 - [x] 【2022.10.04】[error_back](./error_back/) ？运算符返回错误
 
 ## 泛型、trait与生命周期
-- [x] 【2022.10.05】[generics](./generics_demo/)泛型示例：求最大数
+- [x] 【2022.10.05】[generics](./generics_demo/) 泛型示例：求最大数
+- [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 
 
