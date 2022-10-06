@@ -1,0 +1,11 @@
+/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/deps/gilrs_core-c6936821c90524f2.rmeta: /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/lib.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/mod.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/mod.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/ff.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/gamepad.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/io_kit.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/utils.rs
+
+/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/deps/gilrs_core-c6936821c90524f2.d: /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/lib.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/mod.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/mod.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/ff.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/gamepad.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/io_kit.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/utils.rs
+
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/lib.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/mod.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/mod.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/ff.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/gamepad.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/platform/macos/io_kit.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/gilrs-core-0.3.2/src/utils.rs:

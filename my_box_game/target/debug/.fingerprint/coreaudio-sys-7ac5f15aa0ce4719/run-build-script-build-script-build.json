@@ -1,0 +1,1 @@
+{"rustc":4276420980407004710,"features":"","target":0,"profile":0,"path":0,"deps":[[10889074024741706228,"build_script_build",false,14849042081660722405]],"local":[{"RerunIfEnvChanged":{"var":"COREAUDIO_SDK_PATH","val":null}},{"RerunIfEnvChanged":{"var":"BINDGEN_EXTRA_CLANG_ARGS","val":null}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

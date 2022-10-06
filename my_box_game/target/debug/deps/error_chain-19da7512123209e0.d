@@ -1,0 +1,11 @@
+/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/deps/error_chain-19da7512123209e0.rmeta: /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/deps/liberror_chain-19da7512123209e0.rlib: /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/deps/error_chain-19da7512123209e0.d: /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs:
+/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs:
