@@ -16,7 +16,7 @@ use specs::{
 use std::collections::HashMap;
 use std::path;
 
-const TILE_WIDTH: f32 = 32.0;
+const TILE_WIDTH: f32 = 64.0;
 const MAP_WIDTH: u8 = 8;
 const MAP_HEIGHT: u8 = 9;
 
@@ -261,7 +261,7 @@ pub fn register_resources(world: &mut World) {
 pub fn create_wall(world: &mut World, position: Position) {
     world
         .create_entity()
-        .with(Position { z: 10, ..position })
+        .with(Position { z: 15, ..position })
         .with(Renderable {
             path: "/images/wall.png".to_string(),
         })
