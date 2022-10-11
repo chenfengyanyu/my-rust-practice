@@ -4,9 +4,9 @@ use specs::{Component, NullStorage, VecStorage, World, WorldExt};
 #[derive(Debug, Component, Clone, Copy)]
 #[storage(VecStorage)]
 pub struct Position {
-    x: u8,
-    y: u8,
-    z: u8,
+    pub x: u8,
+    pub y: u8,
+    pub z: u8,
 }
 
 #[derive(Component)]

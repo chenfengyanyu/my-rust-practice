@@ -39,6 +39,6 @@
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 
 ## 示例一：编写一个游戏
-- [x] 【2022.10.06】[dog_game](./dog_game/) 示例游戏
+- [x] 【2022.10.06】[my_box_game](./my_box_game/) 示例游戏
 
 

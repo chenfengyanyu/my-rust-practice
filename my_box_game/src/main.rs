@@ -1,28 +1,18 @@
-// Rust sokoban
-// main.rs
-
-use ggez::{
-    conf, event,
-    event::{KeyCode, KeyMods},
-    graphics::{self, DrawParam, Image},
-    Context, GameResult,
-};
-use glam::Vec2;
-use specs::{
-    join::Join, Builder, Component, ReadStorage, RunNow, 
-    System, VecStorage, World, WorldExt,
-    Write, WriteStorage, NullStorage, Entities, world::Index
-};
-use std::collections::HashMap;
+use ggez::{conf, event::{self, KeyCode, KeyMods}, Context, GameResult};
+use specs::{RunNow, World, WorldExt};
 use std::path;
 
+mod components;
+mod constants;
+mod entities;
+mod map;
+mod resources;
+mod systems;
 
-
-
-
-
-
-
+use crate::components::*;
+use crate::map::*;
+use crate::resources::*;
+use crate::systems::*;
 
 // This struct will hold all our game state
 // For now there is nothing to be held, but we'll add
@@ -69,12 +59,6 @@ impl event::EventHandler<ggez::GameError> for Game {
     }
 }
 
-
-
-
-
-
-
 // Initialize the level
 pub fn initialize_level(world: &mut World) {
     const MAP: &str = "
@@ -91,13 +75,6 @@ pub fn initialize_level(world: &mut World) {
 
     load_map(world, MAP.to_string());
 }
-
-
-// Registering resources
-// pub fn register_resources(world: &mut World) {
-//     world.insert(InputQueue::default())
-// }
-
 pub fn main() -> GameResult {
     let mut world = World::new();
     register_components(&mut world);
