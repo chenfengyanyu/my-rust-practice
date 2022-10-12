@@ -19,8 +19,6 @@
 - [x] 【2022.10.01】[enum_demo](./enum_demo/) enum 枚举类型，[option_demo](./option_demo/) option 枚举类型
 - [x] 【2022.10.01】[match_demo](./match_demo/) match 控制流运算符
 
-## 示例一：小练习
-
 ## 包、单元包及模块
 - [x] 【2022.10.01】[lib_demo](./lib_demo/) 单元包
 - [x] 【2022.10.01】[pub_struct](./pub_struct/) 定义公共结构体，[pub_enum](./pub_enum/) 定义公共枚举
@@ -40,10 +38,17 @@
 - [x] 【2022.10.05】[generics](./generics_demo/) 泛型示例：求最大数
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 
+## 示例一：小练习
+- [x] 【2022.10.12】[斐波那契数列](#) 斐波那契数列
+- [x] 【2022.10.12】[摄氏温度与华氏温度的相互转换](#) 摄氏温度与华氏温度的相互转换
+- [x] 【2022.10.13】[打印歌词并循环处理重复内容](#) 打印歌词并循环处理重复内容
+
 ## 示例二：编写一个游戏
 - [x] 【2022.10.06】[my_box_game](./my_box_game/) 示例游戏
 <video id="video" controls="" preload="none" poster="游戏示例">
       <source id="mp4" src="./my_box_game/demo/show.mp4" type="video/mp4">
 </videos>
+
+
 
 
