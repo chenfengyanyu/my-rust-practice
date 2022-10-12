@@ -19,6 +19,8 @@
 - [x] 【2022.10.01】[enum_demo](./enum_demo/) enum 枚举类型，[option_demo](./option_demo/) option 枚举类型
 - [x] 【2022.10.01】[match_demo](./match_demo/) match 控制流运算符
 
+## 示例一：小练习
+
 ## 包、单元包及模块
 - [x] 【2022.10.01】[lib_demo](./lib_demo/) 单元包
 - [x] 【2022.10.01】[pub_struct](./pub_struct/) 定义公共结构体，[pub_enum](./pub_enum/) 定义公共枚举
@@ -38,7 +40,8 @@
 - [x] 【2022.10.05】[generics](./generics_demo/) 泛型示例：求最大数
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 
-## 示例一：编写一个游戏
+## 示例二：编写一个游戏
 - [x] 【2022.10.06】[my_box_game](./my_box_game/) 示例游戏
+![游戏演示](./my_box_game/demo/show.mp4)
 
 

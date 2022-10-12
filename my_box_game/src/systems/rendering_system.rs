@@ -6,7 +6,7 @@ use specs::{Join, ReadStorage, System};
 use glam::Vec2;
 // Systems
 pub struct RenderingSystem<'a> {
-    context: &'a mut Context,
+    pub context: &'a mut Context,
 }
 
 // System implementation

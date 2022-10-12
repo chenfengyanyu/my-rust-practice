@@ -12,7 +12,7 @@ pub struct Position {
 #[derive(Component)]
 #[storage(VecStorage)]
 pub struct Renderable {
-    path: String,
+    pub path: String,
 }
 
 #[derive(Component)]
