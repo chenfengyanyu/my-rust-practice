@@ -45,9 +45,7 @@
 
 ## 示例二：编写一个游戏
 - [x] 【2022.10.06】[my_box_game](./my_box_game/) 示例游戏
-<video id="video" controls="" preload="none" poster="游戏示例">
-      <source id="mp4" src="./my_box_game/demo/show.mp4" type="video/mp4">
-</videos>
+!(./my_box_game//demo/2022-10-16%2012.20.43.gif)[示例]
 
 
 
