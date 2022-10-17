@@ -19,20 +19,23 @@ fn main() {
             println!("温度类型为：摄氏温度");
             let mut c_num = String::new();
             io::stdin().read_line(&mut c_num).expect("读取异常");
-            
-            let temp = c_num.parse::<f64>().unwrap();
+
+            let temp: f64 = c_num.trim().parse().unwrap();
             let trans_num = 32 as f64 + temp * 1.8;
-            println!(">>>>{}",trans_num);
-            // println!("摄氏温度：{} 对应的华氏温度为：{}", c_num, trans_num);
+            println!("对应的华氏温度为：{}", trans_num);
         } else if int_num == 2 {
             println!("温度类型为：华氏温度");
+            let mut f_num = String::new();
+            io::stdin().read_line(&mut f_num).expect("读取异常");
+
+            let temp: f64 = f_num.trim().parse().unwrap();
+            let trans_num = (temp - 32 as f64) / 1.8;
+            println!("对应的摄氏温度为：{}", trans_num);
         } else {
             println!("温度类型异常，请重新设置！");
         }
-
-
     }
-
 }
 
-
+// 网上的一个例子
+// https://blog.csdn.net/qq_36393978/article/details/125805264
