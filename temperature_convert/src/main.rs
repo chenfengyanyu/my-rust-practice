@@ -15,27 +15,24 @@ fn main() {
             }
         };
 
-        if int_num == 1 {
-            println!("温度类型为：摄氏温度");
-            let mut c_num = String::new();
-            io::stdin().read_line(&mut c_num).expect("读取异常");
-
-            let temp: f64 = c_num.trim().parse().unwrap();
-            let trans_num = 32 as f64 + temp * 1.8;
-            println!("对应的华氏温度为：{}", trans_num);
-        } else if int_num == 2 {
-            println!("温度类型为：华氏温度");
-            let mut f_num = String::new();
-            io::stdin().read_line(&mut f_num).expect("读取异常");
-
-            let temp: f64 = f_num.trim().parse().unwrap();
-            let trans_num = (temp - 32 as f64) / 1.8;
-            println!("对应的摄氏温度为：{}", trans_num);
-        } else {
-            println!("温度类型异常，请重新设置！");
+        match int_num {
+            1 => {
+                println!("当前选择为 -> 摄氏温度");
+                let trans_num = 32 as f64 + get_input() * 1.8;
+                println!("对应的华氏温度为：{}°F", trans_num);
+            }
+            2 => {
+                println!("当前选择为 -> 华氏温度");
+                let trans_num = (get_input() - 32 as f64) / 1.8;
+                println!("对应的摄氏温度为：{}°C", trans_num);
+            }
+            _ => println!("温度类型异常，请重新设置！"),
         }
     }
 }
 
-// 网上的一个例子
-// https://blog.csdn.net/qq_36393978/article/details/125805264
+fn get_input() -> f64 {
+    let mut c_num = String::new();
+    io::stdin().read_line(&mut c_num).expect("读取异常");
+    c_num.trim().parse().unwrap()
+}
