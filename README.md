@@ -48,6 +48,9 @@
 - [x] 【2022.10.16】[my_box_game](./my_box_game/) 示例游戏
 ![示例](./my_box_game/demo/2022-10-16%2012.20.43.gif)
 
+## 示例三：编写 CLI 工具
+- [x] 【2022.10.20】[rust_cli_demo](https://github.com/chenfengyanyu/rust_cli_demo/tree/main) Rust CLI Demo
+
 
 
 
