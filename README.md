@@ -53,7 +53,7 @@
 - [x] 【2022.10.21】[clap_cli_demo](./clap_cli_demo/) 使用 CLI 实现 cat 命令
 
 ## 示例四：性能测试
-- - [x] 【2022.10.25】[criterion_demo](./criterion_demo/) Rust 性能测试
+- [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试
 
 
 
