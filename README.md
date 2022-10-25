@@ -53,9 +53,11 @@
 - [x] 【2022.10.21】[clap_cli_demo](./clap_cli_demo/) 使用 CLI 实现 cat 命令
 
 ## 示例四：性能测试
-- [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试
+- [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试（起手测试）
 
-
+## 示例五：使用 Yew 
+> Yew 是一个设计先进的 Rust 框架，目的是使用 WebAssembly 来创建多线程的前端 Web 应用。
+- [x] 【2022.10.25】[yew_app](./yew_app/) Rust Web 框架：Yew
 
 
 
