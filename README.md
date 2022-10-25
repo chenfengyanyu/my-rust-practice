@@ -39,9 +39,9 @@
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 
 ## 示例一：小练习
-- [x] 【2022.10.12】[斐波那契数列](./fibonacci_sequence/) 斐波那契数列
-- [x] 【2022.10.12】[摄氏温度与华氏温度的相互转换](./temperature_convert/) 摄氏温度与华氏温度的相互转换1
-- [x] 【2022.10.18】[摄氏温度与华氏温度的相互转换2](./temperature_convert_2/) 摄氏温度与华氏温度的相互转换2
+- [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
+- [x] 【2022.10.12】[temperature_convert](./temperature_convert/) 摄氏温度与华氏温度的相互转换1
+- [x] 【2022.10.18】[temperature_convert_2](./temperature_convert_2/) 摄氏温度与华氏温度的相互转换2
 - [x] 【2022.10.13】[打印歌词并循环处理重复内容](#) 打印歌词并循环处理重复内容
 
 ## 示例二：编写一个游戏
@@ -49,7 +49,11 @@
 ![示例](./my_box_game/demo/2022-10-16%2012.20.43.gif)
 
 ## 示例三：编写 CLI 工具
-- [x] 【2022.10.20】[rust_cli_demo](https://github.com/chenfengyanyu/rust_cli_demo/tree/main) Rust CLI Demo
+- [x] 【2022.10.20】[rust_cli_demo](https://github.com/chenfengyanyu/rust_cli_demo/tree/main) Rust CLI Demo —— Hello
+- [x] 【2022.10.21】[clap_cli_demo](./clap_cli_demo/) 使用 CLI 实现 cat 命令
+
+## 示例四：性能测试
+- - [x] 【2022.10.25】[criterion_demo](./criterion_demo/) Rust 性能测试
 
 
 
