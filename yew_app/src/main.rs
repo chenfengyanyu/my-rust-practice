@@ -1,23 +1,20 @@
 use yew::prelude::*;
 enum Msg {
-    AddOne
+    AddOne,
 }
 struct Model {
     // `ComponentLink` is like a reference to a component
     // It can be used to send messages to the component
-    link: ComponentLink<Self>, 
-    value: i64
+    link: ComponentLink<Self>,
+    value: i64,
 }
 
 impl Component for Model {
     type Message = Msg;
     type Properties = ();
 
-    fn create(props: Self::Properties, link: ComponentLink<Self>) -> Self {
-        Self {
-            link,
-            value: 0
-        }
+    fn create(_props: Self::Properties, link: ComponentLink<Self>) -> Self {
+        Self { link, value: 0 }
     }
 
     fn update(&mut self, msg: Self::Message) -> ShouldRender {
@@ -39,10 +36,15 @@ impl Component for Model {
     }
 
     fn view(&self) -> Html {
-        html!{
+        html! {
             <div>
-                <button onclick=self.link.callback(|_| Msg::AddOne)>{ "+1" }</button>
-                <p>{ self.value }</p>
+                <div class="notification is-warning">
+                    <button class="delete"></button>
+                    { self.value }
+                </div>
+                <div class="buttons">
+                    <button class="button is-primary" onclick=self.link.callback(|_| Msg::AddOne)>{ "+1" }</button>
+                </div>
             </div>
         }
     }
