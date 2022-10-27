@@ -38,6 +38,7 @@
 - [x] 【2022.10.05】[generics](./generics_demo/) 泛型示例：求最大数
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 - [x] 【2022.10.27】[trait_demo](./trait_demo/) Trait 的基本使用：定义共同行为
+- [x] 【2022.10.27】[trait_demo_default](./trait_demo_default/) Trait 的基本使用：默认实现
 
 ## 示例一：小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
