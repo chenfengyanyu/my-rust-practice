@@ -39,3 +39,6 @@ fn main() {
     // 调用 trait 定义的公用方法 summarize
     println!("1 new tweet: {}", tweet.summarize());
 }
+
+// Error: no method named `summarize` found for struct `Tweet` in the current scope
+// https://github.com/rust-lang/book/issues/1018

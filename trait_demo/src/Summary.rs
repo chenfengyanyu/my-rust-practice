@@ -1,6 +1,6 @@
 // 定义 Trait
 pub trait Summary {
-    fn summarize(&self) -> String;
+    pub fn summarize(&self) -> String;
 }
 // 定义结构体 NewsArticle
 pub struct NewsArticle {
