@@ -37,6 +37,7 @@
 ## 泛型、trait与生命周期
 - [x] 【2022.10.05】[generics](./generics_demo/) 泛型示例：求最大数
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
+- [x] 【2022.10.27】[trait_demo](./trait_demo/) Trait 的基本使用
 
 ## 示例一：小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
@@ -57,7 +58,7 @@
 
 ## 示例五：使用 Yew 
 > Yew 是一个设计先进的 Rust 框架，目的是使用 WebAssembly 来创建多线程的前端 Web 应用。
-- [x] 【2022.10.25】[yew_app](./yew_app/) Rust Web 框架：Yew
+- [x] 【2022.10.25】[yew_app](./yew_app/) Rust Web 框架：Yew + Bulma
 
 
 
