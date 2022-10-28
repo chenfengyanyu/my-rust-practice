@@ -1,5 +1,3 @@
-use std::fmt::{Debug, Display};
-
 // 定义 Trait 默认实现
 pub trait Summary {
     fn summarize_author(&self) -> String;
@@ -27,7 +25,7 @@ pub fn notify(item: impl Summary) {
 }
 
 // 方式二：trait 约束——trait bound
-pub fn notify2<T: Summary>(item: T) {
+pub fn notify2<T: Summary>(item: &[T]) {
     println!("T info! {}", item.summarize());
 }
 
