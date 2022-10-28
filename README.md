@@ -39,12 +39,13 @@
 - [x] 【2022.10.05】[struct_generics](./struct_generics/) 结构体中使用泛型
 - [x] 【2022.10.27】[trait_demo](./trait_demo/) Trait 的基本使用：定义共同行为
 - [x] 【2022.10.27】[trait_demo_default](./trait_demo_default/) Trait 的基本使用：默认实现
+- [x] 【2022.10.28】[trait_demo_type](./trait_deom_type/) Trait 的基本使用：Trait 作为参数
 
 ## 示例一：小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
 - [x] 【2022.10.12】[temperature_convert](./temperature_convert/) 摄氏温度与华氏温度的相互转换1
 - [x] 【2022.10.18】[temperature_convert_2](./temperature_convert_2/) 摄氏温度与华氏温度的相互转换2
-- [x] 【2022.10.13】[打印歌词并循环处理重复内容](#) 打印歌词并循环处理重复内容
+- [ ] 【2022.10.13】[打印歌词并循环处理重复内容](#) 打印歌词并循环处理重复内容
 
 ## 示例二：编写一个游戏
 - [x] 【2022.10.16】[my_box_game](./my_box_game/) 示例游戏
