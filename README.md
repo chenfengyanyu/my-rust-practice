@@ -41,7 +41,8 @@
 - [x] 【2022.10.27】[trait_demo_default](./trait_demo_default/) Trait 的基本使用：默认实现
 - [x] 【2022.10.28】[trait_demo_type](./trait_deom_type/) Trait 的基本使用：Trait 作为参数
 - [x] 【2022.10.28】[trait_demo_largest](./trait_demo_largest/) Trait 的基本使用：Trait 实现 largest 函数
-- [ ] 【2022.10.29】[trait_demo_if](./trait_demo_if/) Trait 的基本使用：使用 trait 约束来有条件地实现方法
+- [x] 【2022.10.29】[trait_demo_if](./trait_demo_if/) Trait 的基本使用：使用 trait 约束来有条件地实现方法
+- [x] 【2022.10.29】[lifetime_if](./lifetime_if/) 生命周期：miss lifetime specifier
 
 
 ## 示例一：小练习
