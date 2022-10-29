@@ -43,7 +43,7 @@
 - [x] 【2022.10.28】[trait_demo_largest](./trait_demo_largest/) Trait 的基本使用：Trait 实现 largest 函数
 - [x] 【2022.10.29】[trait_demo_if](./trait_demo_if/) Trait 的基本使用：使用 trait 约束来有条件地实现方法
 - [x] 【2022.10.29】[lifetime_if](./lifetime_if/) 生命周期：miss lifetime specifier
-
+- [x] 【2022.10.29】[lifetime_test](./lifetime_test/) 生命周期：处理不同生命周期的引用
 
 ## 示例一：小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
