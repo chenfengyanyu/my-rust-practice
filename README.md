@@ -28,6 +28,7 @@
 - [x] 【2022.10.02】[vector_demo](./vector_demo/) 动态数组 Vector
 - [x] 【2022.10.02】[string_demo](./string-demo/) 字符串 String
 - [x] 【2022.10.02】[hashmap_demo](./hashmap_demo/) 哈希映射 HashMap，[hashmap_demo2](./hashmap_demo2/)示例：单词查找
+- [x] 【2022.10.30】[basic_next](./basic_next/) next() 基本用法
 
 ## 错误处理
 - [x] 【2022.10.04】[panic_demo](./panic_demo/) 使用 panic
@@ -44,6 +45,8 @@
 - [x] 【2022.10.29】[trait_demo_if](./trait_demo_if/) Trait 的基本使用：使用 trait 约束来有条件地实现方法
 - [x] 【2022.10.29】[lifetime_if](./lifetime_if/) 生命周期：miss lifetime specifier
 - [x] 【2022.10.29】[lifetime_test](./lifetime_test/) 生命周期：处理不同生命周期的引用
+- [x] 【2022.10.30】[lifetime_struct](./lifetime_struct/) 生命周期：结构体中定义
+- [x] 【2022.10.30】[lifetime_trait](./lifetiem_trait/) 生命周期：同时使用泛型、trait约束与生命周期
 
 ## 示例一：小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
