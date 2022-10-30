@@ -4,15 +4,15 @@ fn main() {
     let mut iter = a.iter();
 
     // A call to next() returns the next value...
-    assert_eq!(Some(&1), iter.next());
-    assert_eq!(Some(&2), iter.next());
-    assert_eq!(Some(&3), iter.next());
+    println!("iter1 value: {:?}", iter.next());
+    println!("iter2 value: {:?}", iter.next());
+    println!("iter3 value: {:?}", iter.next());
 
     // ... and then None once it's over.
-    assert_eq!(None, iter.next());
+    println!("Over value: {:?}", iter.next());
+    // assert_eq!(None, iter.next());
 
     // More calls may or may not return `None`. Here, they always will.
-    assert_eq!(None, iter.next());
-    assert_eq!(None, iter.next());
-    // println!("Hello, world!");
+    // assert_eq!(None, iter.next());
+    println!("Over value: {:?}", iter.next());
 }
