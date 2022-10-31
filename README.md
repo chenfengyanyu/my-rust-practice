@@ -65,6 +65,7 @@
 ## 示例四：单元测试与性能测试
 - [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试（起手测试）
 - [x] 【2022.10.30】[try_test](./try_test/) 编写单元测试
+- [x] 【2022.10.31】[try_test_panic](./try_test_panic/) 使用 should_panic 检查 panic
 
 ## 示例五：使用 Yew 
 > Yew 是一个设计先进的 Rust 框架，目的是使用 WebAssembly 来创建多线程的前端 Web 应用。
