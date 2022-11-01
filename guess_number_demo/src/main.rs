@@ -1,25 +1,25 @@
 use rand::prelude::*;
+use std::cmp::Ordering;
 use std::io;
 
 fn main() {
-    let sys_num = rand::thread_rng().gen_range(0..10);
-    println!("随机数：{}", sys_num);
-
+    let secret = rand::thread_rng().gen_range(0..101);
+    // println!("神秘数字是：{}", secret);
     loop {
-        println!("请输入一个数字：");
-        let mut num = String::new();
-        io::stdin().read_line(&mut num).expect("读取异常");
-        // println!("输入数字为：{}", num);
+        println!("请猜一个数：");
+        let mut guess = String::new();
+        io::stdin().read_line(&mut guess).expect("读取异常");
+        println!("您猜的数字是：{}", guess);
 
-        let num: i32 = num.trim().parse().unwrap();
+        let guess: i32 = guess.trim().parse().unwrap();
 
-        if num > sys_num {
-            println!("Too big!");
-        } else if num < sys_num {
-            println!("Too small!");
-        } else {
-            println!("You win!");
-            break;
+        match guess.cmp(&secret) {
+            Ordering::Less => println!("Too small!"),
+            Ordering::Greater => println!("Too Big!"),
+            Ordering::Equal => {
+                println!("You win!");
+                break;
+            },
         }
     }
 }
