@@ -80,10 +80,10 @@
 - [x] 【2022.10.25】[yew_app](./yew_app/) Rust Web 框架：Yew + Bulma
 
 ## 三、扩展
-### 1.Cargo 镜像源
+### 3.1.Cargo 镜像源
 - [ ] 【2022.11.03】[crates_image](./crates_images/) crates.io 镜像
 
-### 2.Rust Crates 私有化部署
+### 3.2.Rust Crates 私有化部署
 - [ ] 【2022.11.03】[private_registry](./private_registry/) 部署指南
 
 
