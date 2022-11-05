@@ -1,1 +1,0 @@
-/Users/jartto/Documents/Project/my-rust-practice/outside_lib/target/debug/outside_lib: /Users/jartto/Documents/Project/my-rust-practice/outside_lib/src/front_of_house/hosting.rs /Users/jartto/Documents/Project/my-rust-practice/outside_lib/src/front_of_house.rs /Users/jartto/Documents/Project/my-rust-practice/outside_lib/src/main.rs
