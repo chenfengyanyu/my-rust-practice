@@ -46,6 +46,6 @@ impl EventHandler for MyGame {
     }
 }
 "####);
-    skeptic::rt::compile_test(r#"/Users/jartto/.cargo/registry/src/github.com-1ecc6299db9ec823/ggez-0.7.0"#, r#"/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/build/ggez-c2a2d8e3fd38edaf/out"#, r#"aarch64-apple-darwin"#, s);
+    skeptic::rt::compile_test(r#"/Users/jartto/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/ggez-0.7.0"#, r#"/Users/jartto/Documents/Project/my-rust-practice/my_box_game/target/debug/build/ggez-c2a2d8e3fd38edaf/out"#, r#"aarch64-apple-darwin"#, s);
 }
 
