@@ -2,7 +2,7 @@
 - 【基础】内容参考《Rust 权威指南》，作为练习记录。若代码有需要改进的地方还望不吝赐教，一起相互学习，共同进步！
 - 【实践】来源于学习、工作以及其他辅助材料。
 - 【扩展】补充一些 Rust 周边能力，如：镜像源、私有化部署等。
-
+> 注意：如果不想保留 target 编译文件，可以使用命令一键清除：find . -name "target" | xargs rm -rf
 ## 一、基础
 ### 1.1 入门示例
 - [x] 【2022.09.07】[first_demo](./first_demo/) Hello World
@@ -86,6 +86,7 @@
 
 ### 3.2.Rust Crates 私有化部署
 - [x] 【2022.11.03】[private_registry](./private_registry/) 部署指南
+
 
 
 
