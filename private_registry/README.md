@@ -10,21 +10,141 @@
 
 ## 一、创建存储 crates-index 的私有仓库
 ### 1.1 创建在 Git 上的 crate index 的存储仓库
-
-
+```bash
+https://github.com/chenfengyanyu/crates-index
+```
 ### 1.2 配置 config.toml 文件
+如果不会配置，请查看[配置 Cargo 国内镜像源](https://github.com/chenfengyanyu/my-rust-practice/tree/main/crates_images)。
 ```bash
 [registries]
-git-mrust = { index = "https://***/crates-index" }
+mrust = { index = "https://github.com/chenfengyanyu/crates-index" }
+# 或
+[registries.mrust]
+index = "https://github.com/chenfengyanyu/crates-index"
 ```
-选择 git-rust 源
+选择 mrust 源
 ```bash
-
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+# 指定镜像
+replace-with = 'mrust'
 ```
 
-### 1.3 搭建私有的 alternative registry
+## 二、配置 crates 备用注册表的服务 
+私有化的 crates 的注册服务，参考文档：[Installation script](https://hirevo.github.io/alexandrie/installation-script.html)。
+### 2.1 创建安装配置脚本（alexandrie.sh）
+```shell
+#!/bin/bash
+
+# function to run when an error is encountered
+function setup_error {
+    echo "-------- An error occurred during configuration --------"
+    exit 1
+}
+
+# exit on error
+trap 'setup_error' ERR
+
+# directory to clone Alexandrie into:
+ALEXANDRIE_DIR="/Users/jartto/Documents/Project/alexandrie";
+
+# URL to the crate index repository.
+CRATE_INDEX_GIT_URL="https://github.com/chenfengyanyu/crates-index";
 
 
+while ! git ls-remote -h $CRATE_INDEX_GIT_URL; do
+    read -p 'CRATE_INDEX_GIT_URL: ' CRATE_INDEX_GIT_URL;
+done
+
+if ! cargo -V; then
+    echo;
+    echo "In order to build an instance of Alexandrie, you need to have Rust installed on your system";
+    echo "You can learn how to install Rust on your system on the official Rust website:";
+    echo "https://www.rust-lang.org/tools/install";
+    echo;
+    ! :;    # trigger error trap
+fi
+
+if [ -d "$ALEXANDRIE_DIR" ]; then
+    echo
+    echo "'$ALEXANDRIE_DIR' (ALEXANDRIE_DIR) is an existing directory, pulling latest changes ...";
+    cd "$ALEXANDRIE_DIR";
+    git pull;
+    echo "Changes have been pulled successfully !";
+    echo;
+else
+    echo;
+    echo "Cloning Alexandrie in '$ALEXANDRIE_DIR' ...";
+    git clone https://github.com/Hirevo/alexandrie.git "$ALEXANDRIE_DIR";
+    cd "$ALEXANDRIE_DIR";
+    echo "Successfully cloned Alexandrie !";
+    echo;
+fi
+
+echo "Building Alexandrie (using the default features)...";
+echo "(keep in mind that the default features may not fit your use-case, be sure to review them before deplying it to production)";
+cargo build -p alexandrie;
+echo "Alexandrie has been built successfully !";
+
+# create the directory serving as the storage of crate archives.
+mkdir -p crate-storage;
+
+# setup the crate index.
+if [ -d crate-index ]; then
+    echo;
+    echo "'${ALEXANDRIE_DIR}/crate-index' is an existing directory, pulling latest changes ...";
+    cd crate-index;
+    git pull;
+    echo "Changes have been pulled successfully !";
+    echo;
+else
+    echo;
+    echo "Cloning crate index in '${ALEXANDRIE_DIR}/crate-index' ...";
+    git clone "$CRATE_INDEX_GIT_URL" crate-index;
+    cd crate-index;
+    echo "Successfully cloned the crate index !";
+    echo;
+fi
+
+# configure the crate index
+if [ ! -f config.json ]; then
+    echo "The crate index does not have a 'config.json' file.";
+    echo "Creating an initial one (please also review it before deploying the registry in production) ..."
+    cat > config.json << EOF;
+{
+    "dl": "http://$(hostname):3000/api/v1/crates/{crate}/{version}/download",
+    "api": "http://$(hostname):3000",
+    "allowed-registries": ["https://github.com/rust-lang/crates.io-index"]
+}
+EOF
+    git add config.json;
+    git commit -m 'Added `config.json`';
+    git push -u origin master;
+    echo "Initial 'config.json' file has been created and pushed to the crate index !";
+    echo;
+fi
+
+echo "Alexandrie should be good to go for an initial run.";
+echo "You can start the Alexandrie instance by:";
+echo "  - navigating to '${ALEXANDRIE_DIR}'";
+echo "  - tweaking the 'alexandrie.toml' file";
+echo "  - run `./target/debug/alexandrie`";
+echo;
+
+```
+这里注意，需要修改两个参数：
+- ALEXANDRIE_DIR: 本地的路径，列如：/Users/jartto/Documents/Project/alexandrie
+- CRATE_INDEX_GIT_URL: 就是我们在 1.1 创建的 crats index 的 Git 地址，如：https://github.com/chenfengyanyu/crates-index
+### 2.2 执行脚本（alexandrie.sh）
+
+
+### 2.3 启动服务
+
+
+### 2.4 验证服务
+
+
+## 三、使用私有 crates 依赖
 
 
 ## 相关文档
