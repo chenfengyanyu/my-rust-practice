@@ -136,12 +136,15 @@ echo;
 - ALEXANDRIE_DIR: 本地的路径，列如：/Users/jartto/Documents/Project/alexandrie
 - CRATE_INDEX_GIT_URL: 就是我们在 1.1 创建的 crats index 的 Git 地址，如：git@github.com:chenfengyanyu/crates-index.git
 ### 2.2 执行脚本（alexandrie.sh）
+alexandrie.sh 脚本，它主要做了两件事情：
+- Clone CRATE_INDEX_GIT_URL 仓库；
+- 创建 config.json 文件；
 ```
 sh alexandrie.sh git@github.com:chenfengyanyu/crates-index.git /Users/jartto/Documents/Project/alexandrie
 ```
 > 这一步需要关注网络是否可用（确保代理开启），否则会出现 443 异常，导致下载失败。
 
-脚本成功执行后，会看到如下输出：
+第一步，Clone Alexandrie 项目，控制台输出如下：
 ```
 Alexandrie has been built successfully !
 
@@ -165,12 +168,8 @@ error: src refspec master does not match any
 error: failed to push some refs to 'github.com:chenfengyanyu/crates-index.git'
 -------- An error occurred during configuration --------
 ```
-
-接下来，我们来解释下 alexandrie.sh 脚本，它主要做了两件事情：
-- Clone CRATE_INDEX_GIT_URL 仓库；
-- 创建 config.json 文件；
-
-config.json 配置如下：
+如果碰到上述问题，请查看[解决方案](https://blog.csdn.net/dietime1943/article/details/85682688)。
+第二步，自动创建 config.json 文件，配置如下：
 ```
 {
     "dl": "http://{{host:port}}/api/v1/crates/{crate}/{version}/download",
@@ -179,10 +178,54 @@ config.json 配置如下：
 }
 ```
 注意：需要将这里的 host，port 最终换成线上部署的服务。
-### 2.3 启动服务
+```bash
+### 最终成功日志
+Cloning crate index in '/Users/jartto/Documents/Project/alexandrie/crate-index' ...
+Cloning into 'crate-index'...
+warning: You appear to have cloned an empty repository.
+Successfully cloned the crate index !
 
+The crate index does not have a 'config.json' file.
+Creating an initial one (please also review it before deploying the registry in production) ...
+[master (root-commit) 69f3990] Added `config.json`
+ 1 file changed, 5 insertions(+)
+ create mode 100644 config.json
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:chenfengyanyu/crates-index.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Initial 'config.json' file has been created and pushed to the crate index !
 
-### 2.4 验证服务
+Alexandrie should be good to go for an initial run.
+You can start the Alexandrie instance by:
+  - navigating to '/Users/jartto/Documents/Project/alexandrie'
+  - tweaking the 'alexandrie.toml' file
+alexandrie.sh: line 95: ./target/debug/alexandrie: No such file or directory
+  - run
+```
+### 2.3 核心文件
+通过上述步骤，我们建了三个项目，分别是：
+- crates-shell：存放了执行脚本（alexandrie.sh）
+- crates-index：在 Git 上的 crate index 的存储仓库
+- alexandrie：私有化的 crates 注册服务
+注意：alexandrie 会将我们创建的 crates-index 拷贝到 '/Users/jartto/Documents/Project/alexandrie/crate-index' 目录下。
+```bash
+Cloning crate index in '/Users/jartto/Documents/Project/alexandrie/crate-index' ...
+Cloning into 'crate-index'...
+```
+### 2.4 启动服务
+进入 alexandrie 目录：
+```bash
+cd /Users/jartto/Documents/Project/alexandrie
+./target/debug/alexandrie alexandrie.toml
+```
+
+### 2.5 验证服务
 
 
 ## 三、使用私有 crates 依赖
