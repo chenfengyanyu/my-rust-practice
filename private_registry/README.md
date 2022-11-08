@@ -46,10 +46,10 @@ function setup_error {
 trap 'setup_error' ERR
 
 # directory to clone Alexandrie into:
-ALEXANDRIE_DIR="/Users/jartto/Documents/Project/alexandrie";
+ALEXANDRIE_DIR="$2";
 
 # URL to the crate index repository.
-CRATE_INDEX_GIT_URL="https://github.com/chenfengyanyu/crates-index";
+CRATE_INDEX_GIT_URL="$1";
 
 
 while ! git ls-remote -h $CRATE_INDEX_GIT_URL; do
@@ -134,10 +134,51 @@ echo;
 ```
 这里注意，需要修改两个参数：
 - ALEXANDRIE_DIR: 本地的路径，列如：/Users/jartto/Documents/Project/alexandrie
-- CRATE_INDEX_GIT_URL: 就是我们在 1.1 创建的 crats index 的 Git 地址，如：https://github.com/chenfengyanyu/crates-index
+- CRATE_INDEX_GIT_URL: 就是我们在 1.1 创建的 crats index 的 Git 地址，如：git@github.com:chenfengyanyu/crates-index.git
 ### 2.2 执行脚本（alexandrie.sh）
+```
+sh alexandrie.sh git@github.com:chenfengyanyu/crates-index.git /Users/jartto/Documents/Project/alexandrie
+```
+> 这一步需要关注网络是否可用（确保代理开启），否则会出现 443 异常，导致下载失败。
 
+脚本成功执行后，会看到如下输出：
+```
+Alexandrie has been built successfully !
 
+Cloning crate index in '/Users/jartto/Documents/Project/alexandrie/crate-index' ...
+Cloning into 'crate-index'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+Successfully cloned the crate index !
+```
+可能出现异常：
+```
+The crate index does not have a 'config.json' file.
+Creating an initial one (please also review it before deploying the registry in production) ...
+[main a326c06] Added `config.json`
+ 1 file changed, 5 insertions(+)
+ create mode 100644 config.json
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:chenfengyanyu/crates-index.git'
+-------- An error occurred during configuration --------
+```
+
+接下来，我们来解释下 alexandrie.sh 脚本，它主要做了两件事情：
+- Clone CRATE_INDEX_GIT_URL 仓库；
+- 创建 config.json 文件；
+
+config.json 配置如下：
+```
+{
+    "dl": "http://{{host:port}}/api/v1/crates/{crate}/{version}/download",
+    "api": "http://{{host:port}}",
+    "allowed-registries": ["https://github.com/rust-lang/crates.io-index"]
+}
+```
+注意：需要将这里的 host，port 最终换成线上部署的服务。
 ### 2.3 启动服务
 
 
@@ -149,3 +190,4 @@ echo;
 
 ## 相关文档
 - [Rust crates 私有化部署指南](https://baoyachi.github.io/Rust/crates_private_alternative_registry.html)
+- [Alexandrie](https://github.com/Hirevo/alexandrie) Modular alternative crate registry for Rust
