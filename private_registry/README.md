@@ -219,11 +219,57 @@ Cloning crate index in '/Users/jartto/Documents/Project/alexandrie/crate-index' 
 Cloning into 'crate-index'...
 ```
 ### 2.4 启动服务
-进入 alexandrie 目录：
+进入 alexandrie 目录，先构建 alexandrie：
 ```bash
+# 进入目录
 cd /Users/jartto/Documents/Project/alexandrie
-./target/debug/alexandrie alexandrie.toml
+# 构建
+cargo build -p alexandrie
 ```
+然后运行脚本
+```bash
+./target/debug/alexandrie -c  alexandrie.toml
+```
+看到日志台输出如下内容，则表明成功启动服务：
+```bash
+Nov 09 08:54:02.074 INFO starting Alexandrie (version: 0.1.0 - 6e0b9019)
+Nov 09 08:54:02.075 INFO running database migrations
+Nov 09 08:54:02.080 INFO setting up request logger middleware
+Nov 09 08:54:02.080 INFO setting up session middleware
+Nov 09 08:54:02.080 INFO setting up authentication middleware
+Nov 09 08:54:02.080 INFO mounting '/'
+Nov 09 08:54:02.080 INFO mounting '/me'
+Nov 09 08:54:02.080 INFO mounting '/search'
+Nov 09 08:54:02.080 INFO mounting '/most-downloaded'
+Nov 09 08:54:02.080 INFO mounting '/last-updated'
+Nov 09 08:54:02.080 INFO mounting '/crates/:crate'
+Nov 09 08:54:02.081 INFO mounting '/account/login'
+Nov 09 08:54:02.081 INFO mounting '/account/logout'
+Nov 09 08:54:02.081 INFO mounting '/account/register'
+Nov 09 08:54:02.081 INFO mounting '/account/manage'
+Nov 09 08:54:02.081 INFO mounting '/account/manage/password'
+Nov 09 08:54:02.081 INFO mounting '/account/manage/tokens'
+Nov 09 08:54:02.081 INFO mounting '/account/manage/tokens/:token-id/revoke'
+Nov 09 08:54:02.081 INFO mounting '/assets/*path'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/account/register'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/account/login'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/account/tokens'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/account/tokens/:name'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/categories'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/new'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/suggest'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/:name'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/:name/owners'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/:name/:version/yank'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/:name/:version/unyank'
+Nov 09 08:54:02.081 INFO mounting '/api/v1/crates/:name/:version/download'
+Nov 09 08:54:02.081 INFO listening on '127.0.0.1:3000'
+Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
+```
+访问服务，查看效果
+![Welcome to Alexandrie !](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-091359%402x.png?e=1667956777&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:c6wiB4tpls2t9o0rDeLJsYBnoOM=)
+
 
 ### 2.5 验证服务
 
@@ -234,3 +280,5 @@ cd /Users/jartto/Documents/Project/alexandrie
 ## 相关文档
 - [Rust crates 私有化部署指南](https://baoyachi.github.io/Rust/crates_private_alternative_registry.html)
 - [Alexandrie](https://github.com/Hirevo/alexandrie) Modular alternative crate registry for Rust
+- [Cargo 私有仓库部署](https://blog.csdn.net/ssdlearnerused/article/details/108596640)
+
