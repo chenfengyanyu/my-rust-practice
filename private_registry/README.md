@@ -269,10 +269,30 @@ Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
 ```
 访问服务，查看效果
 ![Welcome to Alexandrie !](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-091359%402x.png?e=1667956777&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:c6wiB4tpls2t9o0rDeLJsYBnoOM=)
+我们顺便注册一个账号，并生成 Token 以备下文使用。
+![Created Token](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-220300%402x.png?e=1668002986&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:QSxi1FjQDWWu90ZXn6W72P0QoRk=)
 
+### 2.5 登录 Cargo 账号
+我们通过 Cargo login 来登录账号，这样就可以方便的在私有库发布 Crates 了。
+```bash
+# cargo login --registry=your-registry-name
+cargo login --registry=mrust
+```
+![Login](http://rl34n1pad.bkt.gdipper.com/WX20221109-221449%402x.png?e=1668004475&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:UwYOm9QK3xqm-iKfqMMs3m5g0Rw=)
+创建一个 Rust lib，如下：
+```
+cargo new jartto_lib
+```
+通过 cargo publish 命令进行发布
+```
+cargo publish --registry=mrust --allow-dirty
+```
+注意：要发布未提交的更改可以使用“--allow-dirty”参数。
 
-### 2.5 验证服务
-
+如果有如下异常，需要修改文件：
+```bash
+error: failed to publish to registry at http://JarttodeiMac.lan:3000
+```
 
 ## 三、使用私有 crates 依赖
 
