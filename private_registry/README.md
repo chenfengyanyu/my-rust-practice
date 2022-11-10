@@ -270,7 +270,10 @@ Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
 访问服务，查看效果
 ![Welcome to Alexandrie !](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-091359%402x.png?e=1667956777&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:c6wiB4tpls2t9o0rDeLJsYBnoOM=)
 我们顺便注册一个账号，并生成 Token 以备下文使用。
-![Created Token](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-220300%402x.png?e=1668002986&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:QSxi1FjQDWWu90ZXn6W72P0QoRk=)
+![Created Token](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-220300%402x.png?e=1668041668&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:mhafTl9pFZtR5NYwlb-Dnzu798s=)
+Cargo 会自动将 Token 保存至“~/.cargo/credential”。
+
+
 
 ### 2.5 登录 Cargo 账号
 我们通过 Cargo login 来登录账号，这样就可以方便的在私有库发布 Crates 了。
@@ -278,7 +281,7 @@ Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
 # cargo login --registry=your-registry-name
 cargo login --registry=mrust
 ```
-![Login](http://rl34n1pad.bkt.gdipper.com/WX20221109-221449%402x.png?e=1668004475&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:UwYOm9QK3xqm-iKfqMMs3m5g0Rw=)
+![Login](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-221449%402x.png?e=1668041711&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:hU3Xv4C6tKskCOhBT4Pc-TSjEAI=)
 创建一个 Rust lib，如下：
 ```
 cargo new jartto_lib
@@ -289,13 +292,39 @@ cargo publish --registry=mrust --allow-dirty
 ```
 注意：要发布未提交的更改可以使用“--allow-dirty”参数。
 
-如果有如下异常，需要修改文件：
+如果有如下异常：
 ```bash
 error: failed to publish to registry at http://JarttodeiMac.lan:3000
 ```
-
+需要修改文件“alexandrie/crate-index/config.json”
+```bash
+{
+    "dl": "http://{{host:port}}/api/v1/crates/{crate}/{version}/download",
+    "api": "http://{{host:port}}/",
+    "allowed-registries": ["https://github.com/rust-lang/crates.io-index"]
+}
+```
+重新 Publish 即可。
 ## 三、使用私有 crates 依赖
+使用私有 crates 依赖的时候，只需要确定 registry = "mrust" 即可。
+```
+...
+[dependencies]
+serde_derive = "1.0.111"
+serde = "1.0.111"
+serde_json = "1.0.53"
+...
 
+hula_common = { version="0.1.4", registry = "mrust" }
+B = { package = "B", version="0.3.2", registry = "mrust" }
+A = { package = "A", version="0.5.7", registry = "mrust" }
+...
+```
+## 四、私有库运维
+由于 Cargo 仓库被设计成永久保存，发布上去的 crate 不能删除（无法重新发布同版本的 crate）。这意味着一旦传错，只能在服务端删库重来：
+```
+rm alexandrie.db
+```
 
 ## 相关文档
 - [Rust crates 私有化部署指南](https://baoyachi.github.io/Rust/crates_private_alternative_registry.html)
