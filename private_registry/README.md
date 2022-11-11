@@ -273,15 +273,13 @@ Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
 ![Created Token](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-220300%402x.png?e=1668041668&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:mhafTl9pFZtR5NYwlb-Dnzu798s=)
 Cargo 会自动将 Token 保存至“~/.cargo/credential”。
 
-
-
 ### 2.5 登录 Cargo 账号
-我们通过 Cargo login 来登录账号，这样就可以方便的在私有库发布 Crates 了。
+我们通过 Cargo login 来登录账号，并输入 2.4 节中生成的 Token，这样就可以方便的在私有库发布 Crates 了。
 ```bash
 # cargo login --registry=your-registry-name
 cargo login --registry=mrust
 ```
-![Login](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-221449%402x.png?e=1668041711&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:hU3Xv4C6tKskCOhBT4Pc-TSjEAI=)
+![Login Info](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-221449%402x.png?e=1668041711&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:hU3Xv4C6tKskCOhBT4Pc-TSjEAI=)
 创建一个 Rust lib，如下：
 ```
 cargo new jartto_lib
