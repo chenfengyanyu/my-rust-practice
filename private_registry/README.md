@@ -268,9 +268,9 @@ Nov 09 08:54:02.081 INFO listening on '127.0.0.1:3000'
 Nov 09 08:54:02.081 INFO Server listening on http://127.0.0.1:3000
 ```
 访问服务，查看效果
-![Welcome to Alexandrie !](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-091359%402x.png?e=1667956777&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:c6wiB4tpls2t9o0rDeLJsYBnoOM=)
+![Welcome to Alexandrie !](https://github.com/chenfengyanyu/my-rust-practice/blob/main/private_registry/img/1.png?raw=true)
 我们顺便注册一个账号，并生成 Token 以备下文使用。
-![Created Token](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-220300%402x.png?e=1668041668&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:mhafTl9pFZtR5NYwlb-Dnzu798s=)
+![Created Token](https://github.com/chenfengyanyu/my-rust-practice/blob/main/private_registry/img/2.png?raw=true)
 Cargo 会自动将 Token 保存至“~/.cargo/credential”。
 
 ### 2.5 登录 Cargo 账号
