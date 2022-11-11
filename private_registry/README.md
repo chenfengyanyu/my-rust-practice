@@ -279,7 +279,7 @@ Cargo 会自动将 Token 保存至“~/.cargo/credential”。
 # cargo login --registry=your-registry-name
 cargo login --registry=mrust
 ```
-![Login Info](http://rl23io72v.hn-bkt.clouddn.com/WX20221109-221449%402x.png?e=1668041711&token=dZ4j1F2XfGvQeb7yDPJ3vFxXOUu_4tiicHO8xXfq:hU3Xv4C6tKskCOhBT4Pc-TSjEAI=)
+![Login Info](https://github.com/chenfengyanyu/my-rust-practice/blob/main/private_registry/img/3.png?raw=true)
 创建一个 Rust lib，如下：
 ```
 cargo new jartto_lib
