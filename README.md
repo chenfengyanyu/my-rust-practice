@@ -79,6 +79,7 @@
 > Yew 是一个设计先进的 Rust 框架，目的是使用 WebAssembly 来创建多线程的前端 Web 应用。
 - [x] 【2022.10.25】[yew_app](./yew_app/) Rust Web 框架：Yew + Bulma
 - [x] 【2022.11.05】[rust-web](https://github.com/chenfengyanyu/rust-web) Rust Web 全栈开发（RESTful API，WebAssembly）
+- [x] 【2022.11.13】[yew_todolist](./yew_todolist/) Yew Todolist（use trunk serve）
 
 ## 三、扩展
 ### 3.1.Cargo 镜像源
