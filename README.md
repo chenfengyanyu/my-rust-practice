@@ -51,6 +51,8 @@
 - [x] 【2022.10.30】[lifetime_struct](./lifetime_struct/) 生命周期：结构体中定义
 - [x] 【2022.10.30】[lifetime_trait](./lifetiem_trait/) 生命周期：同时使用泛型、trait约束与生命周期
 
+### 1.7 闭包 Closure
+- [x] 【2022.11.17】[closure_demo](./closure_demo/) 闭包：能够捕获环境的匿名函数
 
 ## 二、实践
 ### 2.1 小练习
@@ -88,6 +90,7 @@
 ### 3.2.Rust Crates 私有化部署
 - [x] 【2022.11.03】[private_registry](./private_registry/) 部署指南
 
+<!-- ## 四、学习资源 -->
 
 
 
