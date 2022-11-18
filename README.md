@@ -54,6 +54,9 @@
 ### 1.7 闭包 Closure
 - [x] 【2022.11.17】[closure_demo](./closure_demo/) 闭包：能够捕获环境的匿名函数
 
+### 1.8 迭代器 Iterator
+- [x] 【2022.11.18】[iter_demo](./iter_demo/) 创建一个迭代器
+
 ## 二、实践
 ### 2.1 小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
