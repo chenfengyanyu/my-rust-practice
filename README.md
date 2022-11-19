@@ -90,14 +90,20 @@
 - [x] 【2022.11.13】[yew_todolist](./yew_todolist/) Yew Todolist（use trunk serve）
 
 ## 三、扩展
-### 3.1.Cargo 镜像源
+### 3.1 Cargo 镜像源
 - [x] 【2022.11.03】[crates_image](./crates_images/) crates.io 镜像
 
-### 3.2.Rust Crates 私有化部署
+### 3.2 Rust Crates 私有化部署
 - [x] 【2022.11.03】[private_registry](./private_registry/) 部署指南
 
-<!-- ## 四、学习资源 -->
+### 3.3 Rust 文档注释
+- [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
 
+
+## 四、学习资源
+- [x] [Rust语言实战](https://zh.practice.rs/why-exercise.html)
+- [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
+- [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust?utm_source=gold_browser_extension)
 
 
 
