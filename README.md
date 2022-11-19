@@ -53,11 +53,12 @@
 
 ### 1.7 闭包 Closure
 - [x] 【2022.11.17】[closure_demo](./closure_demo/) 闭包：能够捕获环境的匿名函数
+- [x] 【2022.11.19】[closure_filter](./closure_filter/) 使用闭包捕获环境
 
 ### 1.8 迭代器 Iterator
 - [x] 【2022.11.18】[iter_demo](./iter_demo/) 创建一个迭代器
 - [x] 【2022.11.18】[iter_trait_demo](./iter_trait_demo/) Iterator trait 和 next 方法
-- [x] 【2022.11.19】[closure_filter](./closure_filter/) 使用闭包捕获环境
+- [x] 【2022.11.19】[custom_iter](./custom_iterator/) 创建自定义迭代器
 
 ## 二、实践
 ### 2.1 小练习
