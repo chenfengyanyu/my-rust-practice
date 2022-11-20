@@ -62,6 +62,7 @@
 
 ### 1.9 智能指针
 - [x] 【2022.11.20】[list_box](./list_box/) 使用 Box<T> 的 List 定义
+- [x] 【2022.11.20】[deref_trait_box](./deref_trait_box/) 通过实现 Deref trait 来将类型视作引用
 
 ## 二、实践
 ### 2.1 小练习
