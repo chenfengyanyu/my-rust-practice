@@ -79,6 +79,7 @@
 - [x] 【2022.10.20】[rust_cli_demo](https://github.com/chenfengyanyu/rust_cli_demo/tree/main) Rust CLI Demo —— Hello
 - [x] 【2022.10.21】[clap_cli_demo](./clap_cli_demo/) 使用 CLI 实现 cat 命令
 - [x] 【2022.11.01】[rust_minigrep](https://github.com/chenfengyanyu/rust_minigrep) 使用 CLI 实现 grep 命令
+- [ ] 【2022.11.20】[show_rust_cli](https://github.com/chenfengyanyu/show_rust_cli) Command Line Applications in Rust
 
 ### 2.4 测试相关
 - [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试（起手测试）
@@ -102,7 +103,7 @@
 
 ### 3.3 Rust 文档注释
 - [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
-![docs demo](https://github.com/chenfengyanyu/my-rust-practice/tree/main/rust_docs/src/image/show.png)
+![docs demo](rust_docs/src/image/show.png)
 
 
 ## 四、学习资源
