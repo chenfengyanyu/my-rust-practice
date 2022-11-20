@@ -60,6 +60,9 @@
 - [x] 【2022.11.18】[iter_trait_demo](./iter_trait_demo/) Iterator trait 和 next 方法
 - [x] 【2022.11.19】[custom_iter](./custom_iterator/) 创建自定义迭代器
 
+### 1.9 智能指针
+- [x] 【2022.11.20】[list_box](./list_box/) 使用 Box<T> 的 List 定义
+
 ## 二、实践
 ### 2.1 小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
@@ -98,10 +101,11 @@
 
 ### 3.3 Rust 文档注释
 - [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
+![docs demo](https://github.com/chenfengyanyu/my-rust-practice/tree/main/rust_docs/src/image/show.png)
 
 
 ## 四、学习资源
-- [x] [Rust语言实战](https://zh.practice.rs/why-exercise.html)
+- [x] [Rust 语言实战](https://zh.practice.rs/why-exercise.html)
 - [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
 - [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust?utm_source=gold_browser_extension)
 
