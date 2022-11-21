@@ -63,6 +63,7 @@
 ### 1.9 智能指针
 - [x] 【2022.11.20】[list_box](./list_box/) 使用 Box<T> 的 List 定义
 - [x] 【2022.11.20】[deref_trait_box](./deref_trait_box/) 通过实现 Deref trait 来将类型视作引用
+- [x] 【2022.11.21】[drop_trait](./drop_trait/) 借助 Drop trait 在清理时运行代码
 
 ## 二、实践
 ### 2.1 小练习
@@ -103,7 +104,7 @@
 
 ### 3.3 Rust 文档注释
 - [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
-![docs demo](rust_docs/src/image/show.png)
+![docs demo](https://github.com/chenfengyanyu/my-rust-practice/blob/main/rust_docs/src/image/show.png?raw=true)
 
 
 ## 四、学习资源
