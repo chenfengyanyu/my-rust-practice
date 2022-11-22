@@ -64,6 +64,7 @@
 - [x] 【2022.11.20】[list_box](./list_box/) 使用 Box<T> 的 List 定义
 - [x] 【2022.11.20】[deref_trait_box](./deref_trait_box/) 通过实现 Deref trait 来将类型视作引用
 - [x] 【2022.11.21】[drop_trait](./drop_trait/) 借助 Drop trait 在清理时运行代码
+- [x] 【2022.11.22】[mem_drop](./mem_drop/) 使用 std::mem::drop 提前丢弃值
 
 ## 二、实践
 ### 2.1 小练习
