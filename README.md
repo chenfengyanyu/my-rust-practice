@@ -99,6 +99,7 @@
 
 ### 2.6 捕获快捷键
 - [x] 【2022.11.22】[signal_handling](./signal_handling/) 处理快捷键 Ctrl+C
+- [x] 【2022.11.22】[ctrlc_demo](./ctrlc_demo/) 使用三方库 ctrlc 捕获键位
 
 ## 三、扩展
 ### 3.1 Cargo 镜像源
