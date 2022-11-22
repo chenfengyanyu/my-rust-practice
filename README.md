@@ -65,6 +65,7 @@
 - [x] 【2022.11.20】[deref_trait_box](./deref_trait_box/) 通过实现 Deref trait 来将类型视作引用
 - [x] 【2022.11.21】[drop_trait](./drop_trait/) 借助 Drop trait 在清理时运行代码
 - [x] 【2022.11.22】[mem_drop](./mem_drop/) 使用 std::mem::drop 提前丢弃值
+- [x] 【2022.11.22】[rc_list](./rc_list/) 基于引用计数的智能指针 Rc<T>，Reference counting（引用计数）
 
 ## 二、实践
 ### 2.1 小练习
@@ -81,7 +82,7 @@
 - [x] 【2022.10.20】[rust_cli_demo](https://github.com/chenfengyanyu/rust_cli_demo/tree/main) Rust CLI Demo —— Hello
 - [x] 【2022.10.21】[clap_cli_demo](./clap_cli_demo/) 使用 CLI 实现 cat 命令
 - [x] 【2022.11.01】[rust_minigrep](https://github.com/chenfengyanyu/rust_minigrep) 使用 CLI 实现 grep 命令
-- [ ] 【2022.11.20】[show_rust_cli](https://github.com/chenfengyanyu/show_rust_cli) Command Line Applications in Rust
+- [x] 【2022.11.20】[show_rust_cli](https://github.com/chenfengyanyu/show_rust_cli) Command Line Applications in Rust
 
 ### 2.4 测试相关
 - [x] 【2022.10.25】[criterion_bench_demo](./criterion_bench_demo/) Rust 性能测试（起手测试）
