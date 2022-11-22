@@ -97,6 +97,9 @@
 - [x] 【2022.11.05】[rust-web](https://github.com/chenfengyanyu/rust-web) Rust Web 全栈开发（RESTful API，WebAssembly）
 - [x] 【2022.11.13】[yew_todolist](./yew_todolist/) Yew Todolist（use trunk serve）
 
+### 2.6 捕获快捷键
+- [x] 【2022.11.22】[signal_handling](./signal_handling/) 处理快捷键 Ctrl+C
+
 ## 三、扩展
 ### 3.1 Cargo 镜像源
 - [x] 【2022.11.03】[crates_image](./crates_images/) crates.io 镜像
