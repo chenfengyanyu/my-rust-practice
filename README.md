@@ -67,6 +67,7 @@
 - [x] 【2022.11.22】[mem_drop](./mem_drop/) 使用 std::mem::drop 提前丢弃值
 - [x] 【2022.11.22】[rc_list](./rc_list/) 基于引用计数的智能指针 Rc<T>，Reference counting（引用计数）
 - [x] 【2022.11.23】[rc_strong_count](./rc_strong_count/) 克隆 Rc<T> 会增加引用计数
+- [x] 【2022.11.24】[rust_mock_object](./rust_mock_object/) 模拟对象
 
 ## 二、实践
 ### 2.1 小练习
