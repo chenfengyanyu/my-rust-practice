@@ -102,6 +102,8 @@
 ### 2.6 捕获快捷键
 - [x] 【2022.11.22】[signal_handling](./signal_handling/) 处理快捷键 Ctrl+C
 - [x] 【2022.11.22】[ctrlc_demo](./ctrlc_demo/) 使用三方库 ctrlc 捕获键位
+- [x] 【2022.11.26】[handle_other_signals](./handle_signals/) 捕获其他类型的信号(Crates: Signal-hook)
+- [x] 【2022.11.26】[use_channel](./use_channel/) 使用 channel 通道进行信号处理(Crates: crossbeam-channel)
 
 ## 三、扩展
 ### 3.1 Cargo 镜像源
