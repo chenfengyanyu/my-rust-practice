@@ -105,6 +105,10 @@
 - [x] 【2022.11.26】[handle_other_signals](./handle_signals/) 捕获其他类型的信号(Crates: Signal-hook)
 - [x] 【2022.11.26】[use_channel](./use_channel/) 使用 channel 通道进行信号处理(Crates: crossbeam-channel)
 
+### 2.7 其他
+- [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
+- [x] 【2022.11.26】[exit_code](./exit_code/) 使用[exitcode](https://crates.io/crates/exitcode)设置退出码
+
 ## 三、扩展
 ### 3.1 Cargo 镜像源
 - [x] 【2022.11.03】[crates_image](./crates_images/) crates.io 镜像
