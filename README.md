@@ -108,6 +108,7 @@
 ### 2.7 其他
 - [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
 - [x] 【2022.11.26】[exit_code](./exit_code/) 使用[exitcode](https://crates.io/crates/exitcode)设置退出码
+- [x] 【2022.11.26】[human_panic](./human_panic/) [human-panic](https://crates.io/crates/human-panic): Panic messages for humans
 
 ## 三、扩展
 ### 3.1 Cargo 镜像源
