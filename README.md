@@ -72,6 +72,7 @@
 
 ### 1.10 无畏并发
 - [x] 【2022.11.27】[handle_thread](./handle_thread/) 使用 join 句柄等待所有线程结束
+- [x] 【2022.11.27】[move_thread](./move_thread/) 在线程中使用 move 闭包
 
 
 ## 二、实践
