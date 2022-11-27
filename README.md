@@ -68,6 +68,7 @@
 - [x] 【2022.11.22】[rc_list](./rc_list/) 基于引用计数的智能指针 Rc<T>，Reference counting（引用计数）
 - [x] 【2022.11.23】[rc_strong_count](./rc_strong_count/) 克隆 Rc<T> 会增加引用计数
 - [x] 【2022.11.24】[rust_mock_object](./rust_mock_object/) 模拟对象
+- [x] 【2022.11.27】[refcell_demo](./refcell_demo/) 将 Rc<T> 和 RefCell<T> 结合使用来实现一个拥有多重所有权的可变数据
 
 ## 二、实践
 ### 2.1 小练习
