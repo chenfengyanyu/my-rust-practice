@@ -70,6 +70,10 @@
 - [x] 【2022.11.24】[rust_mock_object](./rust_mock_object/) 模拟对象
 - [x] 【2022.11.27】[refcell_demo](./refcell_demo/) 将 Rc<T> 和 RefCell<T> 结合使用来实现一个拥有多重所有权的可变数据
 
+### 1.10 无畏并发
+- [x] 【2022.11.27】[handle_thread](./handle_thread/) 使用 join 句柄等待所有线程结束
+
+
 ## 二、实践
 ### 2.1 小练习
 - [x] 【2022.10.12】[fibonacci_sequence](./fibonacci_sequence/) 斐波那契数列
