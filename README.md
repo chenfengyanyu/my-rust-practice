@@ -131,9 +131,6 @@
 
 
 ## 四、学习资源
-- [x] [Rust 语言实战](https://zh.practice.rs/why-exercise.html)
-- [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
-- [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust?utm_source=gold_browser_extension)
-
+- [x] 【2022.11.28】[rust_source](./rust_source/) Rust 入门与练习
 
 
