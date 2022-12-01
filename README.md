@@ -74,6 +74,7 @@
 - [x] 【2022.11.27】[handle_thread](./handle_thread/) 使用 join 句柄等待所有线程结束
 - [x] 【2022.11.27】[move_thread](./move_thread/) 在线程中使用 move 闭包
 - [x] 【2022.11.27】[message_passing](./message_passing/) 使用消息传递在线程间转移数据
+- [x] 【2022.12.01】[mutual_exclusion](./mutual_exclusion/) 互斥体：mutex（mutual exclusion）
 
 
 ## 二、实践
