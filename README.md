@@ -75,6 +75,10 @@
 - [x] 【2022.11.27】[move_thread](./move_thread/) 在线程中使用 move 闭包
 - [x] 【2022.11.27】[message_passing](./message_passing/) 使用消息传递在线程间转移数据
 - [x] 【2022.12.01】[mutual_exclusion](./mutual_exclusion/) 互斥体：mutex（mutual exclusion）
+- [x] 【2022.12.01】[mutex<T>](./mutex/) 在多个线程间共享 Mutex<T>
+
+### 1.11 面向对象编程特性
+- [x] 【2022.12.02】[encapsulation](./encapsulation/) 封装示例
 
 
 ## 二、实践
