@@ -79,6 +79,9 @@
 
 ### 1.11 面向对象编程特性
 - [x] 【2022.12.02】[encapsulation](./encapsulation/) 封装示例
+- [x] 【2022.12.03】[gui_demo](./gui_demo/) 使用 trait 对象来存储不同类型的值
+- [x] 【2022.12.03】[blog_demo](./blog_demo/) 状态模式示例（实现一个发布博客的工作流）
+
 
 
 ## 二、实践
