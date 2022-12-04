@@ -1,5 +1,6 @@
 use machine_info::Machine;
 use std::{thread, time};
+// https://crates.io/crates/machine-info
 fn main() {
     let mut m = Machine::new();
     // Please use a real PIDs!

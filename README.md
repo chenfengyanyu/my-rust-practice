@@ -122,6 +122,7 @@
 
 ### 2.7 系统信息
 - [x] 【2022.12.04】[system_info](./get_sys_info/) 获取系统信息
+- [x] 【2022.12.04】[system_info2](./sysinfo/) Get system information in Rust
 
 ### 2.8 其他
 - [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
