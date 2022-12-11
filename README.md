@@ -82,6 +82,8 @@
 - [x] 【2022.12.03】[gui_demo](./gui_demo/) 使用 trait 对象来存储不同类型的值
 - [x] 【2022.12.03】[blog_demo](./blog_demo/) 状态模式示例（实现一个发布博客的工作流）
 
+### 1.12 unsafe 特性
+- [x] 【2022.12.11】[unsafe_demo](./unsafe_demo/) 通过不安全函数来实现 split_at_mut
 
 
 ## 二、实践
