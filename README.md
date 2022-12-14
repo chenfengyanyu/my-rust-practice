@@ -86,6 +86,7 @@
 - [x] 【2022.12.11】[unsafe_demo](./unsafe_demo/) 通过不安全函数来实现 split_at_mut
 - [x] 【2022.12.14】[extern_func](./extern_func/) 用 extern 关键字来简化创建和使用外部函数接口(Foreign Function Interface，FFI)
 - [x] 【2022.12.14】[static_variable](./static_variable/) 声明、访问与修改可变静态变量（Rust 中全局变量)
+- [x] 【2022.12.14】[unsafe_trait](./unsafe_trait/) 实现不安全 trait
 
 
 ## 二、实践
