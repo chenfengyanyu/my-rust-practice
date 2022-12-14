@@ -84,6 +84,7 @@
 
 ### 1.12 unsafe 特性
 - [x] 【2022.12.11】[unsafe_demo](./unsafe_demo/) 通过不安全函数来实现 split_at_mut
+- [x] 【2022.12.14】[extern_func](./extern_func/) 用 extern 关键字来简化创建和使用外部函数接口(Foreign Function Interface，FFI)
 
 
 ## 二、实践
