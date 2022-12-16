@@ -89,6 +89,7 @@
 - [x] 【2022.12.14】[unsafe_trait](./unsafe_trait/) 实现不安全 trait
 - [x] 【2022.12.15】[operator_overloading](./operator_overloading/) 通过实现 Add trait 来重载 Point 实例的+运算符
 - [x] 【2022.12.15】[custom_rhs](./custom_rhs/) 设置自定义 RHS（right-handle side）类型参数
+- [x] 【2022.12.16】[same_trait_fn](./same_trait_fn/) 制定调用某个 Trait 上的方法
 
 
 ## 二、实践
