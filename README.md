@@ -87,9 +87,12 @@
 - [x] 【2022.12.14】[extern_func](./extern_func/) 用 extern 关键字来简化创建和使用外部函数接口(Foreign Function Interface，FFI)
 - [x] 【2022.12.14】[static_variable](./static_variable/) 声明、访问与修改可变静态变量（Rust 中全局变量)
 - [x] 【2022.12.14】[unsafe_trait](./unsafe_trait/) 实现不安全 trait
+
+### 1.13 高级特性
 - [x] 【2022.12.15】[operator_overloading](./operator_overloading/) 通过实现 Add trait 来重载 Point 实例的+运算符
 - [x] 【2022.12.15】[custom_rhs](./custom_rhs/) 设置自定义 RHS（right-handle side）类型参数
-- [x] 【2022.12.16】[same_trait_fn](./same_trait_fn/) 制定调用某个 Trait 上的方法
+- [x] 【2022.12.16】[same_trait_fn](./same_trait_fn/) 指定调用某个 Trait 上的方法
+- [x] 【2022.12.22】[fully_qualified_syntax](./fully_qualified_syntax/) 使用完全限定语法 <Type as Trait>
 
 
 ## 二、实践
