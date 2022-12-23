@@ -7,6 +7,8 @@
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
 
 # 专题
+## Web
+- [x] [Leptos](https://github.com/gbj/leptos)是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面.
 ## WebAssembly
 - [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备。
 ## 游戏引擎

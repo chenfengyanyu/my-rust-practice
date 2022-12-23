@@ -93,6 +93,7 @@
 - [x] 【2022.12.15】[custom_rhs](./custom_rhs/) 设置自定义 RHS（right-handle side）类型参数
 - [x] 【2022.12.16】[same_trait_fn](./same_trait_fn/) 指定调用某个 Trait 上的方法
 - [x] 【2022.12.22】[fully_qualified_syntax](./fully_qualified_syntax/) 使用完全限定语法 <Type as Trait>
+- [x] 【2022.12.23】[fn_pointer](./fn_pointer/) 函数指针
 
 
 ## 二、实践
