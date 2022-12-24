@@ -138,8 +138,10 @@
 - [x] 【2022.12.04】[system_info2](./sysinfo/) Get system information in Rust
 - [x] 【2022.12.04】[open_web_browsers](./open_web_url/) 在浏览器中打开 URL
 
+### 2.8 实现 Web 服务器
+- [x] 【2022.12.24】[rust_web_server](https://github.com/chenfengyanyu/rust_web_server) Web 服务器
 
-### 2.8 其他
+### 2.9 其他
 - [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
 - [x] 【2022.11.26】[exit_code](./exit_code/) 使用[exitcode](https://crates.io/crates/exitcode)设置退出码
 - [x] 【2022.11.26】[human_panic](./human_panic/) [human-panic](https://crates.io/crates/human-panic): Panic messages for humans
