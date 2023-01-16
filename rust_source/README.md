@@ -8,14 +8,20 @@
 
 # 专题
 ## Web
-- [x] [Leptos](https://github.com/gbj/leptos)是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面.
+- [x] [Leptos](https://github.com/gbj/leptos)是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面。
+- [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
+
 ## WebAssembly
 - [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备。
+
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
+
 ## 算法
 - [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)
 
+## 嵌入式
+- [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
 
 # 实战练习
 - [x] [Rust Web全栈开发](https://www.bilibili.com/video/BV1RP4y1G7KF/?p=1&spm_id_from=pageDriver)：杨旭教学视频
@@ -25,3 +31,7 @@
 # 工具集
 - [x] [RustDesk](https://github.com/rustdesk/rustdesk/blob/master/docs/README-ZH.md)：远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
 - [x] [tui.rs](https://github.com/fdehau/tui-rs)：Rust 下的命令行 UI 库，不仅上手方便内置多种组件，而且效果炫酷支持跨平台使用
+- [x] [Czkawka](https://github.com/qarmin/czkawka)：Czkawka 是一款简单、快速且免费的应用程序，可从删除计算机中不需要的文件
+
+# 相关资源
+- [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表
