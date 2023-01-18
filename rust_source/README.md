@@ -12,6 +12,7 @@
 - [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
 
 ## WebAssembly
+- [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) your favorite rust -> wasm workflow tool!
 - [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备。
 
 ## 游戏引擎
