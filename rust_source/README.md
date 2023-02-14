@@ -13,7 +13,9 @@
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) your favorite rust -> wasm workflow tool!
-- [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备。
+- [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备
+- [x] [uutils coreutils](https://github.com/uutils/coreutils)：GNU coreutils 的跨平台 Rust 重写
+- [x] [Ruffle](https://github.com/ruffle-rs/ruffle)：Ruffle 是用 Rust 编程语言编写的 Adobe Flash Player 模拟器（Ruffle 使用 WebAssembly 针对桌面和 Web）
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
@@ -33,6 +35,8 @@
 - [x] [RustDesk](https://github.com/rustdesk/rustdesk/blob/master/docs/README-ZH.md)：远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
 - [x] [tui.rs](https://github.com/fdehau/tui-rs)：Rust 下的命令行 UI 库，不仅上手方便内置多种组件，而且效果炫酷支持跨平台使用
 - [x] [Czkawka](https://github.com/qarmin/czkawka)：Czkawka 是一款简单、快速且免费的应用程序，可从删除计算机中不需要的文件
+- [x] [nom](https://github.com/rust-bakery/nom?utm_source=gold_browser_extension)：是一个用 Rust 编写的解析器组合器库。 它的目标是提供工具来构建安全的解析器，而不会影响速度或内存消耗。
+- [x] [Lance](https://github.com/eto-ai/lance?utm_source=gold_browser_extension)：Lance 是一种列式数据格式，可以轻松快速地进行版本控制、查询和训练。 它设计用于图像、视频、3D 点云、音频，当然还有表格数据。
 
 # 相关资源
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表
