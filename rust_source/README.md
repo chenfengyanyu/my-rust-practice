@@ -17,9 +17,11 @@
 - [x] [Wasmer](https://github.com/wasmerio/wasmer)：Wasmer 是一种快速且安全的 WebAssembly 运行时，它使超轻量级容器可以在任何地方运行：从桌面到云、边缘和物联网设备
 - [x] [uutils coreutils](https://github.com/uutils/coreutils)：GNU coreutils 的跨平台 Rust 重写
 - [x] [Ruffle](https://github.com/ruffle-rs/ruffle)：Ruffle 是用 Rust 编程语言编写的 Adobe Flash Player 模拟器（Ruffle 使用 WebAssembly 针对桌面和 Web）
+- [x] [wasmtime](https://github.com/bytecodealliance/wasmtime)WebAssembly 的快速安全运行时
 
 ## Server
 - [x] [Tonic](https://github.com/hyperium/tonic)tonic 是一个 gRPC over HTTP/2 实现，专注于高性能、互操作性和灵活性。
+- [x] [SeaORM](https://github.com/SeaQL/sea-orm)SeaORM 是一种关系型 ORM，可帮助您在熟悉动态语言的情况下使用 Rust 构建 Web 服务。
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
@@ -48,3 +50,5 @@
 
 # 相关资源
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) Rust 代码和资源的精选列表
+- [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust) Google 打造的 Android 系列课
+- [x] [Book|The Rust Programming Language](https://github.com/rust-lang/book)"The Rust Programming Language"
