@@ -1,6 +1,7 @@
 # 学习资源
 - [x] [Rust 语言实战](https://zh.practice.rs/why-exercise.html)
 - [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
+- [x] [Aquascope](https://cognitive-engineering-lab.github.io/aquascope/)：是一种可视化 Rust 程序的编译时和运行时行为的工具。
 
 
 # 入门练习
@@ -11,6 +12,7 @@
 - [x] [Leptos](https://github.com/gbj/leptos)：是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面。
 - [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)：Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
 - [x] [Rome](https://github.com/rome/tools)：Rome 旨在取代 Babel、ESLint、webpack、Prettier、Jest 等前端工具链。
+- [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -47,6 +49,8 @@
 - [x] [HyperSwitch](https://github.com/juspay/hyperswitch)：是一种开源金融交换机，可实现快速、可靠且经济实惠的支付。 它允许您连接多个支付处理器并轻松路由流量，所有这些都通过一个 API 集成。
 - [x] [Helix](https://github.com/helix-editor/helix)：后现代模态文本编辑器
 - [x] [Ruff](https://github.com/charliermarsh/ruff)：一个极快的 Python linter
+- [x] [tree-sitter](https://github.com/tree-sitter/tree-sitter)：是一个解析器生成工具和增量解析库。它可以为源文件构建一个具体的语法树，并在源文件被编辑时有效地更新语法树。
+- [x] [Aquascope](https://github.com/cognitive-engineering-lab/aquascope)：是一种生成 Rust 程序交互式可视化的工具。这些可视化显示了 Rust 的借用检查器如何“思考”程序，以及 Rust 程序如何实际执行。
 
 # 相关资源
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
