@@ -24,6 +24,7 @@
 ## Server
 - [x] [Tonic](https://github.com/hyperium/tonic)：Tonic 是一个 gRPC over HTTP/2 实现，专注于高性能、互操作性和灵活性。
 - [x] [SeaORM](https://github.com/SeaQL/sea-orm)：SeaORM 是一种关系型 ORM，可帮助您在熟悉动态语言的情况下使用 Rust 构建 Web 服务。
+- [x] [SQLx](https://github.com/launchbadge/sqlx)：SQLx 是一个异步的纯 Rust SQL 包，具有编译时检查查询的功能，而不需要 DSL。它支持 PostgreSQL、MySQL、SQLite 和 MSSQ。
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
@@ -41,6 +42,7 @@
 
 ## Linux
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
+- [x] [Atuin](https://github.com/ellie/atuin)：是一个强大的替代shell history的工具，它使用 SQLite 数据库记录命令的上下文，并提供可选的完全加密同步。
 
 ## Git
 - [x] [Onefetch](https://github.com/o2sh/onefetch/blob/main/docs/README.cn.md)：是一款由 Rust 编写的命令行 Git 信息工具，它将直接在终端中展示本地 Git 仓库的项目详情和代码统计等内容。
@@ -64,6 +66,7 @@
 - [x] [Starship](https://github.com/starship/starship)：适用于任何 shell 的最小、极快且可无限自定义的提示符！
 - [x] [rtx](https://github.com/jdxcode/rtx)：运行时执行器
 - [x] [Himalaya](https://github.com/soywod/himalaya)：是一个基于 himalaya-lib 的 CLI，它允许使用控制台中的命令来操作电子邮件
+- [x] [Carbonyl](https://github.com/fathyb/carbonyl)：是一个基于Chromium构建的浏览器，可在终端中运行
 
 # 相关资源
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
