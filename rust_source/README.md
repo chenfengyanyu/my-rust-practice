@@ -2,10 +2,8 @@
 - [x] [Rust 语言实战](https://zh.practice.rs/why-exercise.html)
 - [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
 - [x] [Aquascope](https://cognitive-engineering-lab.github.io/aquascope/)：是一种可视化 Rust 程序的编译时和运行时行为的工具。
-
-
-# 入门练习
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
+- [x] [rust-course](https://github.com/sunface/rust-course)：Rust语言圣经
 
 # 专题
 ## Web
@@ -25,6 +23,12 @@
 - [x] [Tonic](https://github.com/hyperium/tonic)：Tonic 是一个 gRPC over HTTP/2 实现，专注于高性能、互操作性和灵活性。
 - [x] [SeaORM](https://github.com/SeaQL/sea-orm)：SeaORM 是一种关系型 ORM，可帮助您在熟悉动态语言的情况下使用 Rust 构建 Web 服务。
 - [x] [SQLx](https://github.com/launchbadge/sqlx)：SQLx 是一个异步的纯 Rust SQL 包，具有编译时检查查询的功能，而不需要 DSL。它支持 PostgreSQL、MySQL、SQLite 和 MSSQ。
+- [x] [TiKV](https://github.com/tikv/tikv)：是一个开源的、分布式的、事务性的键值数据库。 与其他传统的 NoSQL 系统不同，TiKV 不仅提供了经典的键值 API，还提供了符合 ACID 的事务 API。 TiKV 由 Rust 构建并由 Raft 提供支持，最初由 PingCAP 创建以补充 TiDB，TiDB 是一个与 MySQL 协议兼容的分布式 HTAP 数据库。
+- [x] [Polkadot](https://github.com/paritytech/polkadot)：基于 Substrate 框架在 Rust 中实现 https://polkadot.network 节点
+- [x] [Neon](https://github.com/neondatabase/neon)： 是 AWS Aurora Postgres 的无服务器开源替代品。 它将存储和计算分开，并通过跨节点集群重新分配数据来替代 PostgreSQL 存储层。
+
+## AI
+- [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
