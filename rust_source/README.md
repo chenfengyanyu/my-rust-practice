@@ -4,6 +4,7 @@
 - [x] [Aquascope](https://cognitive-engineering-lab.github.io/aquascope/)：是一种可视化 Rust 程序的编译时和运行时行为的工具。
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
 - [x] [rust-course](https://github.com/sunface/rust-course)：Rust语言圣经
+- [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 
 # 专题
 ## Web
