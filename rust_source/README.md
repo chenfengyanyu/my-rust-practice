@@ -5,6 +5,9 @@
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
 - [x] [rust-course](https://github.com/sunface/rust-course)：Rust语言圣经
 - [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
+- [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
+- [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
+- [x] [Book|The Rust Programming Language](https://github.com/rust-lang/book)："The Rust Programming Language"
 
 # 专题
 ## Web
@@ -12,6 +15,7 @@
 - [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)：Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
 - [x] [Rome](https://github.com/rome/tools)：Rome 旨在取代 Babel、ESLint、webpack、Prettier、Jest 等前端工具链。
 - [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
+- [x] [Relay](https://github.com/facebook/relay)：Relay 是一个用于构建数据驱动的 React 应用程序的 JavaScript 框架。
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -27,6 +31,7 @@
 - [x] [TiKV](https://github.com/tikv/tikv)：是一个开源的、分布式的、事务性的键值数据库。 与其他传统的 NoSQL 系统不同，TiKV 不仅提供了经典的键值 API，还提供了符合 ACID 的事务 API。 TiKV 由 Rust 构建并由 Raft 提供支持，最初由 PingCAP 创建以补充 TiDB，TiDB 是一个与 MySQL 协议兼容的分布式 HTAP 数据库。
 - [x] [Polkadot](https://github.com/paritytech/polkadot)：基于 Substrate 框架在 Rust 中实现 https://polkadot.network 节点
 - [x] [Neon](https://github.com/neondatabase/neon)： 是 AWS Aurora Postgres 的无服务器开源替代品。 它将存储和计算分开，并通过跨节点集群重新分配数据来替代 PostgreSQL 存储层。
+- [x] [Serde](https://github.com/serde-rs/serde)：Serde 是一个用于高效通用地序列化和反序列化 Rust 数据结构的框架。
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
@@ -35,6 +40,9 @@
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
 - [x] [Qdrant](https://github.com/qdrant/qdrant)：Qdrant 是一个矢量相似度搜索引擎和矢量数据库。它提供了一个生产就绪的服务，带有一个方便的 API 来存储、搜索和管理点——带有额外有效负载的矢量。 Qdrant 专为扩展过滤支持而定制。可用于各种神经网络或基于语义的匹配、分面搜索和其他应用程序。
 - [x] [Ambient](https://github.com/AmbientRun/Ambient)：Ambient 是一个用于构建高性能多人游戏和 3D 应用程序的运行时，由 WebAssembly、Rust 和 WebGPU 提供支持
+
+## Native
+- [x] [touchHLE](https://github.com/hikari-no-yume/touchHLE)：iPhone OS 应用程序的高级模拟器
 
 ## 网络
 - [x] [libp2p](https://github.com/libp2p/rust-libp2p)：网络堆栈的 Rust 实现。
@@ -73,7 +81,7 @@
 - [x] [Himalaya](https://github.com/soywod/himalaya)：是一个基于 himalaya-lib 的 CLI，它允许使用控制台中的命令来操作电子邮件
 - [x] [Carbonyl](https://github.com/fathyb/carbonyl)：是一个基于Chromium构建的浏览器，可在终端中运行
 
-# 相关资源
-- [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
-- [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
-- [x] [Book|The Rust Programming Language](https://github.com/rust-lang/book)："The Rust Programming Language"
+# 其他
+- [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
+- [x] [Roc](https://github.com/roc-lang/roc)：Roc 的目标是成为一种快速、友好的函数式语言
+- [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：为研究和生产优化的快速、最先进的分词器
