@@ -16,6 +16,7 @@
 - [x] [Rome](https://github.com/rome/tools)：Rome 旨在取代 Babel、ESLint、webpack、Prettier、Jest 等前端工具链。
 - [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
 - [x] [Relay](https://github.com/facebook/relay)：Relay 是一个用于构建数据驱动的 React 应用程序的 JavaScript 框架。
+- [x] [rspack](https://github.com/web-infra-dev/rspack/blob/main/README.zh-CN.md)：字节跳动自研 Web 构建工具 Rspack
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
