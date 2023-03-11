@@ -140,6 +140,7 @@
 
 ### 2.8 实现 Web 服务器
 - [x] 【2022.12.24】[rust_web_server](https://github.com/chenfengyanyu/rust_web_server) Web 服务器
+- [x] 【2023.03.11】[reqwest_demo](./reqwest-demo/) Reqwest 示例
 
 ### 2.9 其他
 - [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
