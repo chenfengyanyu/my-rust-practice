@@ -5,15 +5,15 @@ use std::collections::HashMap;
 #[derive(Debug, Serialize, Deserialize)]
 struct InfoResponse {
     data: String,
-    headers: HashMap<String, String>
+    // headers: HashMap<String, String>
 }
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut info = HashMap::new();
-    info.insert("apiKey", "sk-qG9REgsuFWMP1my8dqsGTxxxxxxx");
+    info.insert("apiKey", "sk-qG9REgsuFWMP1my8dqsGTxxxx"); // 记得修改你的 apikey
     info.insert("sessionId", "8d1cb9b0-d535-43a8-b738-4f61b1608579");
-    info.insert("content", "你是谁？");
+    info.insert("content", "Rust 真难学");
 
     let client = reqwest::Client::new();
     let res = client.post("https://api.openai-proxy.com/v1/chat/completions")
