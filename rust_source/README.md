@@ -33,6 +33,9 @@
 - [x] [Polkadot](https://github.com/paritytech/polkadot)：基于 Substrate 框架在 Rust 中实现 https://polkadot.network 节点
 - [x] [Neon](https://github.com/neondatabase/neon)： 是 AWS Aurora Postgres 的无服务器开源替代品。 它将存储和计算分开，并通过跨节点集群重新分配数据来替代 PostgreSQL 存储层。
 - [x] [Serde](https://github.com/serde-rs/serde)：Serde 是一个用于高效通用地序列化和反序列化 Rust 数据结构的框架。
+- [x] [How to Build a REST API in Rust](https://betterprogramming.pub/rest-api-in-rust-step-by-step-guide-b8a6c5fcbff0)：A Step-by-Step Guide
+- [x] [Rust API guidelines](https://github.com/rust-lang/api-guidelines)：Rust API guidelines
+- [x] [Build Your First API with Rust](https://dev.to/nathan20/build-your-first-api-with-rust-5da5)：Build Your First API with Rust
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
