@@ -36,6 +36,10 @@
 - [x] [How to Build a REST API in Rust](https://betterprogramming.pub/rest-api-in-rust-step-by-step-guide-b8a6c5fcbff0)：A Step-by-Step Guide
 - [x] [Rust API guidelines](https://github.com/rust-lang/api-guidelines)：Rust API guidelines
 - [x] [Build Your First API with Rust](https://dev.to/nathan20/build-your-first-api-with-rust-5da5)：Build Your First API with Rust
+- [x] [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：GreptimeDB 是一个开源时间序列数据库，特别注重可扩展性、分析能力和效率。 它专为云时代的基础设施而设计，用户受益于其弹性和商品存储。
+
+## 桌面端
+- [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
@@ -47,6 +51,7 @@
 
 ## Native
 - [x] [touchHLE](https://github.com/hikari-no-yume/touchHLE)：iPhone OS 应用程序的高级模拟器
+- [x] [Tonic](https://github.com/hyperium/tonic)：gRPC 的 Rust 实现，一种高性能、开源、通用的 RPC 框架，将移动和 HTTP/2 放在首位。
 
 ## 网络
 - [x] [libp2p](https://github.com/libp2p/rust-libp2p)：网络堆栈的 Rust 实现。
@@ -85,6 +90,7 @@
 - [x] [rtx](https://github.com/jdxcode/rtx)：运行时执行器
 - [x] [Himalaya](https://github.com/soywod/himalaya)：是一个基于 himalaya-lib 的 CLI，它允许使用控制台中的命令来操作电子邮件
 - [x] [Carbonyl](https://github.com/fathyb/carbonyl)：是一个基于Chromium构建的浏览器，可在终端中运行
+- [x] [libsignal](https://github.com/signalapp/libsignal)：Signal 协议以及其他使 Signal 成为可能的加密原语的所在地
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
