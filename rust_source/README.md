@@ -4,15 +4,19 @@
 - [x] [Aquascope](https://cognitive-engineering-lab.github.io/aquascope/)：是一种可视化 Rust 程序的编译时和运行时行为的工具。
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
 - [x] [rust-course](https://github.com/sunface/rust-course)：Rust语言圣经
-- [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
-- [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Book|The Rust Programming Language](https://github.com/rust-lang/book)："The Rust Programming Language"
-- [x] [Zero To Production In Rust](https://github.com/LukeMathWalker/zero-to-production)：使用 Rust 开发后端
-- [x] [张汉东 Rust 实战课](https://time.geekbang.org/course/detail/100060601-292839)：张汉东 Rust 实战课
-- [x] [陈天 Rust 编程第一课](https://time.geekbang.org/column/intro/100085301)：极客时间，陈天 Rust 编程第一课
 - [x] [rust_daily_news](https://t.me/rust_daily_news)：张汉东的 Telegram Rust 推送
 - [x] [Rust 初学者建议](https://github.com/rustlang-cn/Rustt/blob/main/Articles/%5B2022-04-02%5D%20Rust%20%E5%A4%A7%E4%BD%AC%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE.md)：Rust 大佬给初学者的学习建议
+
+# 实战练习
+- [x] [Rust Web全栈开发](https://www.bilibili.com/video/BV1RP4y1G7KF/?p=1&spm_id_from=pageDriver)：杨旭教学视频
+- [x] [Zero To Production In Rust](https://github.com/LukeMathWalker/zero-to-production)：使用 Rust 开发后端
+- [x] [张汉东 Rust 实战课](https://time.geekbang.org/course/detail/100060601-292839)：张汉东 Rust 实战课
+- [x] [Build a Rust + WebAssembly frontend web app with Yew](https://blog.logrocket.com/rust-webassembly-frontend-web-app-yew/)
+- [x] [陈天 Rust 编程第一课](https://time.geekbang.org/column/intro/100085301)：极客时间，陈天 Rust 编程第一课
+- [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
+- [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 
 # 专题
 ## Web
@@ -75,10 +79,6 @@
 
 ## Git
 - [x] [Onefetch](https://github.com/o2sh/onefetch/blob/main/docs/README.cn.md)：是一款由 Rust 编写的命令行 Git 信息工具，它将直接在终端中展示本地 Git 仓库的项目详情和代码统计等内容。
-
-# 实战练习
-- [x] [Rust Web全栈开发](https://www.bilibili.com/video/BV1RP4y1G7KF/?p=1&spm_id_from=pageDriver)：杨旭教学视频
-- [x] [Build a Rust + WebAssembly frontend web app with Yew](https://blog.logrocket.com/rust-webassembly-frontend-web-app-yew/)
 
 
 # 工具集
