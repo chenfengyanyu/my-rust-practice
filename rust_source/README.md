@@ -8,6 +8,11 @@
 - [x] [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) ：Rust 代码和资源的精选列表
 - [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Book|The Rust Programming Language](https://github.com/rust-lang/book)："The Rust Programming Language"
+- [x] [Zero To Production In Rust](https://github.com/LukeMathWalker/zero-to-production)：使用 Rust 开发后端
+- [x] [张汉东 Rust 实战课](https://time.geekbang.org/course/detail/100060601-292839)：张汉东 Rust 实战课
+- [x] [陈天 Rust 编程第一课](https://time.geekbang.org/column/intro/100085301)：极客时间，陈天 Rust 编程第一课
+- [x] [rust_daily_news](https://t.me/rust_daily_news)：张汉东的 Telegram Rust 推送
+- [x] [Rust 初学者建议](https://github.com/rustlang-cn/Rustt/blob/main/Articles/%5B2022-04-02%5D%20Rust%20%E5%A4%A7%E4%BD%AC%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE.md)：Rust 大佬给初学者的学习建议
 
 # 专题
 ## Web
@@ -62,6 +67,7 @@
 
 ## 嵌入式
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
+- [x] [wgpu](https://github.com/gfx-rs/wgpu)：Rust 中安全且可移植的 GPU 抽象，实现 WebGPU API
 
 ## Linux
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
