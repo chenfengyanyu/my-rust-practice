@@ -18,6 +18,10 @@
 - [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 
+# 晋级
+- [x] [How I contribute to Rust Compiler](https://rustmagazine.org/issue-1/contribute-to-rustc/)：我如何为 Rust 编译器做出贡献
+- [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)：所有算法在 Rust 中实现
+
 # 专题
 ## Web
 - [x] [Leptos](https://github.com/gbj/leptos)：是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面。
@@ -26,6 +30,7 @@
 - [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
 - [x] [Relay](https://github.com/facebook/relay)：Relay 是一个用于构建数据驱动的 React 应用程序的 JavaScript 框架。
 - [x] [rspack](https://github.com/web-infra-dev/rspack/blob/main/README.zh-CN.md)：字节跳动自研 Web 构建工具 Rspack
+- [x] [Farm](https://github.com/farm-fe/farm)：Farm 是一种用 Rust 编写的超快速、轻量级的 Web 构建工具
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -46,6 +51,8 @@
 - [x] [Rust API guidelines](https://github.com/rust-lang/api-guidelines)：Rust API guidelines
 - [x] [Build Your First API with Rust](https://dev.to/nathan20/build-your-first-api-with-rust-5da5)：Build Your First API with Rust
 - [x] [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：GreptimeDB 是一个开源时间序列数据库，特别注重可扩展性、分析能力和效率。 它专为云时代的基础设施而设计，用户受益于其弹性和商品存储。
+- [x] [Rocket](https://github.com/SergioBenitez/Rocket)：Rust Web 框架
+- [x] [Cube](https://github.com/cube-js/cube.js)：Cube是构建数据应用的语义层。它帮助数据工程师和应用程序开发人员从现代数据存储中访问数据，将其组织成一致的定义，并将其交付给每个应用程序。
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
@@ -65,9 +72,6 @@
 ## 网络
 - [x] [libp2p](https://github.com/libp2p/rust-libp2p)：网络堆栈的 Rust 实现。
 
-
-## 算法
-- [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)
 
 ## 嵌入式
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
@@ -97,6 +101,8 @@
 - [x] [Himalaya](https://github.com/soywod/himalaya)：是一个基于 himalaya-lib 的 CLI，它允许使用控制台中的命令来操作电子邮件
 - [x] [Carbonyl](https://github.com/fathyb/carbonyl)：是一个基于Chromium构建的浏览器，可在终端中运行
 - [x] [libsignal](https://github.com/signalapp/libsignal)：Signal 协议以及其他使 Signal 成为可能的加密原语的所在地
+- [x] [static-analysis](https://github.com/analysis-tools-dev/static-analysis)：该库提供所有编程语言的静态分析工具、构建工具、配置文件，便于提高代码质量
+- [x] [erdtree](https://github.com/solidiquis/erdtree)：多线程文件树可视化工具和磁盘使用分析器
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
