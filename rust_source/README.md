@@ -71,11 +71,13 @@
 
 ## 网络
 - [x] [libp2p](https://github.com/libp2p/rust-libp2p)：网络堆栈的 Rust 实现。
+- [x] [bottom](https://github.com/ClementTsang/bottom)：用于终端的可定制的跨平台图形过程/系统监视器。支持 Linux、macOS 和 Windows。
 
 
 ## 嵌入式
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
 - [x] [wgpu](https://github.com/gfx-rs/wgpu)：Rust 中安全且可移植的 GPU 抽象，实现 WebGPU API
+- [x] [embassy](https://github.com/embassy-rs/embassy)：现代嵌入式框架，使用 Rust 和异步
 
 ## Linux
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
@@ -103,8 +105,12 @@
 - [x] [libsignal](https://github.com/signalapp/libsignal)：Signal 协议以及其他使 Signal 成为可能的加密原语的所在地
 - [x] [static-analysis](https://github.com/analysis-tools-dev/static-analysis)：该库提供所有编程语言的静态分析工具、构建工具、配置文件，便于提高代码质量
 - [x] [erdtree](https://github.com/solidiquis/erdtree)：多线程文件树可视化工具和磁盘使用分析器
+- [x] [halp](https://github.com/orhun/halp)：获取 CLI 工具帮助的 CLI 工具
+- [x] [broot](https://github.com/Canop/broot)：查看和导航目录树的新方法
+- [x] [just](https://github.com/casey/just)：为您提供一种保存和运行项目特有命令的便捷方式
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
 - [x] [Roc](https://github.com/roc-lang/roc)：Roc 的目标是成为一种快速、友好的函数式语言
 - [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：为研究和生产优化的快速、最先进的分词器
+- [x] [potatis](https://github.com/henrikpersson/potatis)：Rust 中的 MOS-6502 和 NES 模拟器（SDL/WebAssembly/Android/Embedded/Cloud）
