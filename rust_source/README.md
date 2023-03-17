@@ -17,6 +17,7 @@
 - [x] [陈天 Rust 编程第一课](https://time.geekbang.org/column/intro/100085301)：极客时间，陈天 Rust 编程第一课
 - [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
+- [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
 
 # 晋级
 - [x] [How I contribute to Rust Compiler](https://rustmagazine.org/issue-1/contribute-to-rustc/)：我如何为 Rust 编译器做出贡献
@@ -68,16 +69,21 @@
 ## Native
 - [x] [touchHLE](https://github.com/hikari-no-yume/touchHLE)：iPhone OS 应用程序的高级模拟器
 - [x] [Tonic](https://github.com/hyperium/tonic)：gRPC 的 Rust 实现，一种高性能、开源、通用的 RPC 框架，将移动和 HTTP/2 放在首位。
+- [x] [crux](https://github.com/redbadger/crux)：Rust 中的跨平台应用程序开发
 
 ## 网络
 - [x] [libp2p](https://github.com/libp2p/rust-libp2p)：网络堆栈的 Rust 实现。
 - [x] [bottom](https://github.com/ClementTsang/bottom)：用于终端的可定制的跨平台图形过程/系统监视器。支持 Linux、macOS 和 Windows。
+
+## 安全
+- [x] [feroxbuster](https://github.com/epi052/feroxbuster)：feroxbuster 使用蛮力结合单词列表来搜索目标目录中未链接的内容。这些资源可能存储有关 Web 应用程序和操作系统的敏感信息，例如源代码、凭据、内部网络寻址等
 
 
 ## 嵌入式
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
 - [x] [wgpu](https://github.com/gfx-rs/wgpu)：Rust 中安全且可移植的 GPU 抽象，实现 WebGPU API
 - [x] [embassy](https://github.com/embassy-rs/embassy)：现代嵌入式框架，使用 Rust 和异步
+- [x] [wezterm](https://github.com/wez/wezterm)：在 Rust 中实现的 GPU 加速跨平台终端仿真器和多路复用器
 
 ## Linux
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
@@ -108,6 +114,9 @@
 - [x] [halp](https://github.com/orhun/halp)：获取 CLI 工具帮助的 CLI 工具
 - [x] [broot](https://github.com/Canop/broot)：查看和导航目录树的新方法
 - [x] [just](https://github.com/casey/just)：为您提供一种保存和运行项目特有命令的便捷方式
+- [x] [aws-sdk-rust](https://github.com/awslabs/aws-sdk-rust)：适用于 Rust 编程语言的 AWS 开发工具包
+- [x] [lapce](https://github.com/lapce/lapce)：使用 Rust 实现，快如闪电且功能强大的代码编辑器
+- [x] [](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
