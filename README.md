@@ -1,7 +1,8 @@
 # my-rust-practice
 - 【基础】内容参考《Rust 权威指南》，作为练习记录。若代码有需要改进的地方还望不吝赐教，一起相互学习，共同进步！
-- 【实践】来源于学习、工作以及其他辅助材料。
-- 【扩展】补充一些 Rust 周边能力，如：镜像源、私有化部署等。
+- 【实践】来源于学习、工作以及其他辅助材料
+- 【扩展】补充一些 Rust 周边能力，如：镜像源、私有化部署等
+- 【资讯】每日补充 Rust 生态相关，如：特性、插件、开源库等，详见：[rust_source](./rust_source/)
 > 注意：如果不想保留 target 编译文件，可以使用命令一键清除：find . -name "target" | xargs rm -rf
 ## 一、基础
 ### 1.1 入门示例
@@ -142,7 +143,10 @@
 - [x] 【2022.12.24】[rust_web_server](https://github.com/chenfengyanyu/rust_web_server) Web 服务器
 - [x] 【2023.03.11】[reqwest_demo](./reqwest-demo/) Reqwest 示例
 
-### 2.9 其他
+### 2.9 桌面应用
+- [x] 【2023.03.19】[tauri_demo](https://github.com/chenfengyanyu/rust-tauri-demo) 使用 Tauri 开发桌面应用
+
+### 2.10 其他
 - [x] 【2022.11.26】[confy_demo](./confy_demo/) 使用[confy](https://crates.io/crates/confy)处理配置文件
 - [x] 【2022.11.26】[exit_code](./exit_code/) 使用[exitcode](https://crates.io/crates/exitcode)设置退出码
 - [x] 【2022.11.26】[human_panic](./human_panic/) [human-panic](https://crates.io/crates/human-panic): Panic messages for humans
@@ -160,8 +164,5 @@
 - [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
 ![docs demo](https://github.com/chenfengyanyu/my-rust-practice/blob/main/rust_docs/src/image/show.png?raw=true)
 
-
-## 四、学习资源
-- [x] 【2022.11.28】[rust_source](./rust_source/) Rust 入门与练习
 
 
