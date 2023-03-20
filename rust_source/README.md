@@ -57,9 +57,15 @@
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
+- [x] [Tauri](https://github.com/tauri-apps/tauri)：使用 Web 前端构建更小、更快和更安全的桌面应用程序
+
+## 音视频
+- [x] [NIH-plug](https://github.com/robbert-vdh/nih-plug)：NIH-plug 是一个用 Rust 编写的与 API 无关的音频插件框架，以及一小部分插件。
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
+- [x] [LLaMA-rs](https://github.com/setzer22/llama-rs)：LLaMA-rs 是 llama.cpp 项目的 Rust 端口。 这允许使用模型的全精度、f16 或 4 位量化版本在 CPU 上以良好的性能运行 Facebook 的 LLaMA 模型的推理。
+- [x] [ChatGPT](https://github.com/lencx/ChatGPT)：ChatGPT 桌面应用程序（Mac、Windows 和 Linux）
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
@@ -91,6 +97,8 @@
 
 ## Git
 - [x] [Onefetch](https://github.com/o2sh/onefetch/blob/main/docs/README.cn.md)：是一款由 Rust 编写的命令行 Git 信息工具，它将直接在终端中展示本地 Git 仓库的项目详情和代码统计等内容。
+- [x] [Nosey Parker](https://github.com/praetorian-inc/noseyparker)：Nosy Parker 是一个命令行程序，可以在文本数据和 Git 历史记录中查找秘密和敏感信息。
+- [x] [gitui](https://github.com/extrawurst/gitui)：用 Rust 编写的用于 git 的快速终端用户界面
 
 
 # 工具集
