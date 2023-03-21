@@ -54,6 +54,7 @@
 - [x] [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：GreptimeDB 是一个开源时间序列数据库，特别注重可扩展性、分析能力和效率。 它专为云时代的基础设施而设计，用户受益于其弹性和商品存储。
 - [x] [Rocket](https://github.com/SergioBenitez/Rocket)：Rust Web 框架
 - [x] [Cube](https://github.com/cube-js/cube.js)：Cube是构建数据应用的语义层。它帮助数据工程师和应用程序开发人员从现代数据存储中访问数据，将其组织成一致的定义，并将其交付给每个应用程序。
+- [x] [Diesel](https://github.com/diesel-rs/diesel)：用于 Rust 的安全、可扩展的 ORM 和查询生成器
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
@@ -124,7 +125,9 @@
 - [x] [just](https://github.com/casey/just)：为您提供一种保存和运行项目特有命令的便捷方式
 - [x] [aws-sdk-rust](https://github.com/awslabs/aws-sdk-rust)：适用于 Rust 编程语言的 AWS 开发工具包
 - [x] [lapce](https://github.com/lapce/lapce)：使用 Rust 实现，快如闪电且功能强大的代码编辑器
-- [x] [](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
+- [x] [feroxbuster](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
+- [x] [tarsila](https://github.com/yds12/tarsila)：像素编辑
+- [x] [Jetro](https://github.com/mitghi/jetro)：Jetro 是一个提供自定义 DSL 的库，用于转换、查询和比较 JSON 格式的数据。 它易于使用和扩展。
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
