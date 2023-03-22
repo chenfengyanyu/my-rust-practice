@@ -18,20 +18,25 @@
 - [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
+- [x] [Rust Atomics and Locks Low-Level Concurrency in Practice](https://marabos.nl/atomics/)：Rust 原子和锁——实践中的低级并发
 
 # 晋级
 - [x] [How I contribute to Rust Compiler](https://rustmagazine.org/issue-1/contribute-to-rustc/)：我如何为 Rust 编译器做出贡献
 - [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)：所有算法在 Rust 中实现
+- [x] [Rust 源码剖析](https://github.com/awesome-kusion/rust-code-book)：Rust 源码剖析——开源书籍
+- [x] [concurrency programming via rust](https://github.com/smallnest/concurrency-programming-via-rust)：通过 Rust 进行并发编程
 
 # 专题
 ## Web
 - [x] [Leptos](https://github.com/gbj/leptos)：是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面。
 - [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)：Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
 - [x] [Rome](https://github.com/rome/tools)：Rome 旨在取代 Babel、ESLint、webpack、Prettier、Jest 等前端工具链。
+- [x] [Deno](https://github.com/denoland/deno)：适用于 JavaScript 和 TypeScript 的现代运行时
 - [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
 - [x] [Relay](https://github.com/facebook/relay)：Relay 是一个用于构建数据驱动的 React 应用程序的 JavaScript 框架。
 - [x] [rspack](https://github.com/web-infra-dev/rspack/blob/main/README.zh-CN.md)：字节跳动自研 Web 构建工具 Rspack
 - [x] [Farm](https://github.com/farm-fe/farm)：Farm 是一种用 Rust 编写的超快速、轻量级的 Web 构建工具
+- [x] [zola](https://github.com/getzola/zola)：单个二进制文件中的快速静态站点生成器
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
