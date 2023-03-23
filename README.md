@@ -152,6 +152,8 @@
 - [x] 【2022.11.26】[human_panic](./human_panic/) [human-panic](https://crates.io/crates/human-panic): Panic messages for humans
 - [x] 【2022.11.26】[atty_demo](./atty_demo/) 使用[atty](https://crates.io/crates/atty)
 - [x] 【2023.03.06】[OpenAI](./openai-demo/) OpenAI 使用示例
+- [x] 【2023.03.24】[jieba_demo](./jieba_demo/) Rust 版本分词库使用示例
+
 
 ## 三、扩展
 ### 3.1 Cargo 镜像源
