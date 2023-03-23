@@ -18,20 +18,25 @@
 - [x] [Comprehensive Rust](https://github.com/google/comprehensive-rust)： Google 打造的 Android 系列课
 - [x] [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)：YouTube Rust 课程
 - [x] [Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials) 学习用 Rust 编写嵌入式操作系统
+- [x] [Rust Atomics and Locks Low-Level Concurrency in Practice](https://marabos.nl/atomics/)：Rust 原子和锁——实践中的低级并发
 
 # 晋级
 - [x] [How I contribute to Rust Compiler](https://rustmagazine.org/issue-1/contribute-to-rustc/)：我如何为 Rust 编译器做出贡献
 - [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)：所有算法在 Rust 中实现
+- [x] [Rust 源码剖析](https://github.com/awesome-kusion/rust-code-book)：Rust 源码剖析——开源书籍
+- [x] [concurrency programming via rust](https://github.com/smallnest/concurrency-programming-via-rust)：通过 Rust 进行并发编程
 
 # 专题
 ## Web
 - [x] [Leptos](https://github.com/gbj/leptos)：是一个全栈、同构的 Rust Web 框架，利用细粒度的反应性来构建声明式用户界面。
 - [x] [Dioxus](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)：Dioxus 是一个可移植、高性能且符合人体工程学的框架，用于在 Rust 中构建跨平台用户界面。Dioxus 可用于生成 网页前端、桌面应用、静态网站、移动端应用、TUI程序、等多类平台应用。如果你能够熟悉使用 React 框架，那 Dioxus 对你来说将非常简单。
 - [x] [Rome](https://github.com/rome/tools)：Rome 旨在取代 Babel、ESLint、webpack、Prettier、Jest 等前端工具链。
+- [x] [Deno](https://github.com/denoland/deno)：适用于 JavaScript 和 TypeScript 的现代运行时
 - [x] [egui](https://github.com/emilk/egui)：Rust 中易于使用的即时模式 GUI，可在 Web 和本机上运行。
 - [x] [Relay](https://github.com/facebook/relay)：Relay 是一个用于构建数据驱动的 React 应用程序的 JavaScript 框架。
 - [x] [rspack](https://github.com/web-infra-dev/rspack/blob/main/README.zh-CN.md)：字节跳动自研 Web 构建工具 Rspack
 - [x] [Farm](https://github.com/farm-fe/farm)：Farm 是一种用 Rust 编写的超快速、轻量级的 Web 构建工具
+- [x] [zola](https://github.com/getzola/zola)：单个二进制文件中的快速静态站点生成器
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -54,12 +59,19 @@
 - [x] [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：GreptimeDB 是一个开源时间序列数据库，特别注重可扩展性、分析能力和效率。 它专为云时代的基础设施而设计，用户受益于其弹性和商品存储。
 - [x] [Rocket](https://github.com/SergioBenitez/Rocket)：Rust Web 框架
 - [x] [Cube](https://github.com/cube-js/cube.js)：Cube是构建数据应用的语义层。它帮助数据工程师和应用程序开发人员从现代数据存储中访问数据，将其组织成一致的定义，并将其交付给每个应用程序。
+- [x] [Diesel](https://github.com/diesel-rs/diesel)：用于 Rust 的安全、可扩展的 ORM 和查询生成器
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
+- [x] [Tauri](https://github.com/tauri-apps/tauri)：使用 Web 前端构建更小、更快和更安全的桌面应用程序
+
+## 音视频
+- [x] [NIH-plug](https://github.com/robbert-vdh/nih-plug)：NIH-plug 是一个用 Rust 编写的与 API 无关的音频插件框架，以及一小部分插件。
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
+- [x] [LLaMA-rs](https://github.com/setzer22/llama-rs)：LLaMA-rs 是 llama.cpp 项目的 Rust 端口。 这允许使用模型的全精度、f16 或 4 位量化版本在 CPU 上以良好的性能运行 Facebook 的 LLaMA 模型的推理。
+- [x] [ChatGPT](https://github.com/lencx/ChatGPT)：ChatGPT 桌面应用程序（Mac、Windows 和 Linux）
 
 ## 游戏引擎
 - [x] [Bevy](https://github.com/bevyengine/bevy)：Bevy 是一个用 Rust 构建的令人耳目一新的简单数据驱动游戏引擎。
@@ -91,6 +103,8 @@
 
 ## Git
 - [x] [Onefetch](https://github.com/o2sh/onefetch/blob/main/docs/README.cn.md)：是一款由 Rust 编写的命令行 Git 信息工具，它将直接在终端中展示本地 Git 仓库的项目详情和代码统计等内容。
+- [x] [Nosey Parker](https://github.com/praetorian-inc/noseyparker)：Nosy Parker 是一个命令行程序，可以在文本数据和 Git 历史记录中查找秘密和敏感信息。
+- [x] [gitui](https://github.com/extrawurst/gitui)：用 Rust 编写的用于 git 的快速终端用户界面
 
 
 # 工具集
@@ -116,7 +130,9 @@
 - [x] [just](https://github.com/casey/just)：为您提供一种保存和运行项目特有命令的便捷方式
 - [x] [aws-sdk-rust](https://github.com/awslabs/aws-sdk-rust)：适用于 Rust 编程语言的 AWS 开发工具包
 - [x] [lapce](https://github.com/lapce/lapce)：使用 Rust 实现，快如闪电且功能强大的代码编辑器
-- [x] [](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
+- [x] [feroxbuster](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
+- [x] [tarsila](https://github.com/yds12/tarsila)：像素编辑
+- [x] [Jetro](https://github.com/mitghi/jetro)：Jetro 是一个提供自定义 DSL 的库，用于转换、查询和比较 JSON 格式的数据。 它易于使用和扩展。
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
