@@ -37,6 +37,7 @@
 - [x] [rspack](https://github.com/web-infra-dev/rspack/blob/main/README.zh-CN.md)：字节跳动自研 Web 构建工具 Rspack
 - [x] [Farm](https://github.com/farm-fe/farm)：Farm 是一种用 Rust 编写的超快速、轻量级的 Web 构建工具
 - [x] [zola](https://github.com/getzola/zola)：单个二进制文件中的快速静态站点生成器
+- [x] [Typst](https://github.com/typst/typst)：是一种新的基于标记的排版系统，其设计与 LaTeX 一样强大，同时更易于学习和使用
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -64,9 +65,13 @@
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
 - [x] [Tauri](https://github.com/tauri-apps/tauri)：使用 Web 前端构建更小、更快和更安全的桌面应用程序
+- [x] [Slint](https://github.com/slint-ui/slint)： 是一个工具包，可以高效地为任何显示器开发流畅的图形用户界面：嵌入式设备和桌面应用程序。
+
+## 操作系统
+- [x] [Rust for Windows](https://github.com/microsoft/windows-rs)：Rust 开发人员调用 Windows API 提供了一种自然而惯用的方式
 
 ## 音视频
-- [x] [NIH-plug](https://github.com/robbert-vdh/nih-plug)：NIH-plug 是一个用 Rust 编写的与 API 无关的音频插件框架，以及一小部分插件。
+- [x] [NIH-plug](https://github.com/robbert-vdh/nih-plug)：NIH-plug 是一个用 Rust 编写的与 API 无关的音频插件框架，以及一小部分插件
 
 ## AI
 - [x] [AIChat](https://github.com/sigoden/aichat)：一个强大的 ChatGPT 命令行工具，允许在终端中与 ChatGPT-3.5 轻松聊天。
@@ -89,6 +94,7 @@
 
 ## 安全
 - [x] [feroxbuster](https://github.com/epi052/feroxbuster)：feroxbuster 使用蛮力结合单词列表来搜索目标目录中未链接的内容。这些资源可能存储有关 Web 应用程序和操作系统的敏感信息，例如源代码、凭据、内部网络寻址等
+- [x] [Hayabusa](https://github.com/Yamato-Security/hayabusa)：Windows 事件日志快速取证时间线生成器和威胁搜寻工具
 
 
 ## 嵌入式
@@ -100,12 +106,13 @@
 ## Linux
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
 - [x] [Atuin](https://github.com/ellie/atuin)：是一个强大的替代shell history的工具，它使用 SQLite 数据库记录命令的上下文，并提供可选的完全加密同步。
+- [x] [Tantivy](https://github.com/quickwit-oss/tantivy)：Tantivy 是一个受 Apache Lucene 启发并用 Rust 编写的全文搜索引擎库
 
 ## Git
 - [x] [Onefetch](https://github.com/o2sh/onefetch/blob/main/docs/README.cn.md)：是一款由 Rust 编写的命令行 Git 信息工具，它将直接在终端中展示本地 Git 仓库的项目详情和代码统计等内容。
 - [x] [Nosey Parker](https://github.com/praetorian-inc/noseyparker)：Nosy Parker 是一个命令行程序，可以在文本数据和 Git 历史记录中查找秘密和敏感信息。
 - [x] [gitui](https://github.com/extrawurst/gitui)：用 Rust 编写的用于 git 的快速终端用户界面
-
+- [x] [gptcommit](https://github.com/zurawiki/gptcommit)：用于使用 GPT-3 编写提交消息的 git prepare-commit-msg 挂钩。 使用此工具，可以轻松生成清晰、全面和描述性的提交消息，专注于编写代码。
 
 # 工具集
 - [x] [RustDesk](https://github.com/rustdesk/rustdesk/blob/master/docs/README-ZH.md)：远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
@@ -133,6 +140,7 @@
 - [x] [feroxbuster](https://github.com/epi052/feroxbuster)：用 Rust 编写的简单、快速、递归的内容发现工具
 - [x] [tarsila](https://github.com/yds12/tarsila)：像素编辑
 - [x] [Jetro](https://github.com/mitghi/jetro)：Jetro 是一个提供自定义 DSL 的库，用于转换、查询和比较 JSON 格式的数据。 它易于使用和扩展。
+- [x] [skim](https://github.com/lotabout/skim)：Rust 实现的强大模糊查找工具
 
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
