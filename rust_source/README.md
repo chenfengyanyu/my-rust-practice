@@ -38,6 +38,7 @@
 - [x] [Farm](https://github.com/farm-fe/farm)：Farm 是一种用 Rust 编写的超快速、轻量级的 Web 构建工具
 - [x] [zola](https://github.com/getzola/zola)：单个二进制文件中的快速静态站点生成器
 - [x] [Typst](https://github.com/typst/typst)：是一种新的基于标记的排版系统，其设计与 LaTeX 一样强大，同时更易于学习和使用
+- [x] [Axum](https://github.com/tokio-rs/axum)：axum 是一个 web 应用程序框架，专注于人体工程学和模块化。
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -45,6 +46,9 @@
 - [x] [uutils coreutils](https://github.com/uutils/coreutils)：GNU coreutils 的跨平台 Rust 重写
 - [x] [Ruffle](https://github.com/ruffle-rs/ruffle)：Ruffle 是用 Rust 编程语言编写的 Adobe Flash Player 模拟器（Ruffle 使用 WebAssembly 针对桌面和 Web）
 - [x] [wasmtime](https://github.com/bytecodealliance/wasmtime)：WebAssembly 的快速安全运行时
+
+## 基础库
+- [x] [hyper](https://github.com/hyperium/hyper)：Rust 的 HTTP 库
 
 ## Server
 - [x] [Tonic](https://github.com/hyperium/tonic)：Tonic 是一个 gRPC over HTTP/2 实现，专注于高性能、互操作性和灵活性。
@@ -61,6 +65,7 @@
 - [x] [Rocket](https://github.com/SergioBenitez/Rocket)：Rust Web 框架
 - [x] [Cube](https://github.com/cube-js/cube.js)：Cube是构建数据应用的语义层。它帮助数据工程师和应用程序开发人员从现代数据存储中访问数据，将其组织成一致的定义，并将其交付给每个应用程序。
 - [x] [Diesel](https://github.com/diesel-rs/diesel)：用于 Rust 的安全、可扩展的 ORM 和查询生成器
+- [x] [Spin](https://github.com/fermyon/spin)：Spin 是一个开源框架，用于使用 WebAssembly 构建和运行快速、安全且可组合的云微服务
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
@@ -69,6 +74,7 @@
 
 ## 操作系统
 - [x] [Rust for Windows](https://github.com/microsoft/windows-rs)：Rust 开发人员调用 Windows API 提供了一种自然而惯用的方式
+- [x] [Alacritty](https://github.com/alacritty/alacritty)： 快速、跨平台的 OpenGL 终端仿真器
 
 ## 音视频
 - [x] [NIH-plug](https://github.com/robbert-vdh/nih-plug)：NIH-plug 是一个用 Rust 编写的与 API 无关的音频插件框架，以及一小部分插件
@@ -141,9 +147,10 @@
 - [x] [tarsila](https://github.com/yds12/tarsila)：像素编辑
 - [x] [Jetro](https://github.com/mitghi/jetro)：Jetro 是一个提供自定义 DSL 的库，用于转换、查询和比较 JSON 格式的数据。 它易于使用和扩展。
 - [x] [skim](https://github.com/lotabout/skim)：Rust 实现的强大模糊查找工具
-
+- [x] [CodeCursor](https://github.com/Helixform/CodeCursor)：Cursor 是一款基于 GPT-4 的 AI 代码编辑器。 您可以使用它编写、编辑和讨论您的代码。
 # 其他
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
 - [x] [Roc](https://github.com/roc-lang/roc)：Roc 的目标是成为一种快速、友好的函数式语言
 - [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：为研究和生产优化的快速、最先进的分词器
 - [x] [potatis](https://github.com/henrikpersson/potatis)：Rust 中的 MOS-6502 和 NES 模拟器（SDL/WebAssembly/Android/Embedded/Cloud）
+- [x] [Sui](https://github.com/MystenLabs/sui)：Sui 是下一代智能合约平台，具有高吞吐量、低延迟和由 Move 编程语言提供支持的面向资产的编程模型。
