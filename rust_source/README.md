@@ -1,6 +1,7 @@
 # 学习资源
 - [x] [Rust 语言实战](https://zh.practice.rs/why-exercise.html)
 - [x] [Rust 菜鸟教程](https://www.runoob.com/rust/rust-tutorial.html)
+- [x] [awesome-rust](https://github.com/rust-unofficial/awesome-rust)：Rust 代码和资源的精选列表
 - [x] [Aquascope](https://cognitive-engineering-lab.github.io/aquascope/)：是一种可视化 Rust 程序的编译时和运行时行为的工具。
 - [x] [rustlings](https://github.com/rust-lang/rustlings)：这个项目包含小练习，让你习惯阅读和编写 Rust 代码。
 - [x] [rust-course](https://github.com/sunface/rust-course)：Rust语言圣经
@@ -25,6 +26,7 @@
 - [x] [All algorithms implemented in Rust](https://github.com/TheAlgorithms/Rust)：所有算法在 Rust 中实现
 - [x] [Rust 源码剖析](https://github.com/awesome-kusion/rust-code-book)：Rust 源码剖析——开源书籍
 - [x] [concurrency programming via rust](https://github.com/smallnest/concurrency-programming-via-rust)：通过 Rust 进行并发编程
+- [x] [tracing](https://github.com/tokio-rs/tracing)：tracing 是一个框架，用于检测 Rust 程序以收集结构化的、基于事件的诊断信息
 
 # 专题
 ## Web
@@ -120,6 +122,9 @@
 - [x] [gitui](https://github.com/extrawurst/gitui)：用 Rust 编写的用于 git 的快速终端用户界面
 - [x] [gptcommit](https://github.com/zurawiki/gptcommit)：用于使用 GPT-3 编写提交消息的 git prepare-commit-msg 挂钩。 使用此工具，可以轻松生成清晰、全面和描述性的提交消息，专注于编写代码。
 
+## 区块链
+- [x] [Web-Scale](https://github.com/solana-labs/solana)：Web-Scale 区块链，用于快速、安全、可扩展、去中心化的应用程序和市场
+
 # 工具集
 - [x] [RustDesk](https://github.com/rustdesk/rustdesk/blob/master/docs/README-ZH.md)：远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
 - [x] [tui.rs](https://github.com/fdehau/tui-rs)：Rust 下的命令行 UI 库，不仅上手方便内置多种组件，而且效果炫酷支持跨平台使用
@@ -154,3 +159,4 @@
 - [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：为研究和生产优化的快速、最先进的分词器
 - [x] [potatis](https://github.com/henrikpersson/potatis)：Rust 中的 MOS-6502 和 NES 模拟器（SDL/WebAssembly/Android/Embedded/Cloud）
 - [x] [Sui](https://github.com/MystenLabs/sui)：Sui 是下一代智能合约平台，具有高吞吐量、低延迟和由 Move 编程语言提供支持的面向资产的编程模型。
+- [x] [Typst LSP](https://github.com/nvarner/typst-lsp)：全新的 Typst 语言服务器，以及 VS Code 扩展
