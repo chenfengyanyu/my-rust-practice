@@ -27,6 +27,7 @@
 - [x] [Rust 源码剖析](https://github.com/awesome-kusion/rust-code-book)：Rust 源码剖析——开源书籍
 - [x] [concurrency programming via rust](https://github.com/smallnest/concurrency-programming-via-rust)：通过 Rust 进行并发编程
 - [x] [tracing](https://github.com/tokio-rs/tracing)：tracing 是一个框架，用于检测 Rust 程序以收集结构化的、基于事件的诊断信息
+- [x] [高并发的哲学原理](https://github.com/johnlui/PPHC)：高并发问题背后隐藏的一个哲学原理——找出单点，进行拆分
 
 # 专题
 ## Web
@@ -68,11 +69,13 @@
 - [x] [Cube](https://github.com/cube-js/cube.js)：Cube是构建数据应用的语义层。它帮助数据工程师和应用程序开发人员从现代数据存储中访问数据，将其组织成一致的定义，并将其交付给每个应用程序。
 - [x] [Diesel](https://github.com/diesel-rs/diesel)：用于 Rust 的安全、可扩展的 ORM 和查询生成器
 - [x] [Spin](https://github.com/fermyon/spin)：Spin 是一个开源框架，用于使用 WebAssembly 构建和运行快速、安全且可组合的云微服务
+- [x] [RisingWave](https://github.com/risingwavelabs/risingwave)：用于流处理的分布式 SQL 数据库
 
 ## 桌面端
 - [x] [Pake](https://github.com/tw93/Pake)：很简单的用 Rust 打包网页生成很小的桌面 App
 - [x] [Tauri](https://github.com/tauri-apps/tauri)：使用 Web 前端构建更小、更快和更安全的桌面应用程序
 - [x] [Slint](https://github.com/slint-ui/slint)： 是一个工具包，可以高效地为任何显示器开发流畅的图形用户界面：嵌入式设备和桌面应用程序。
+- [x] [rustdesk](https://github.com/rustdesk/rustdesk)：适合所有人的虚拟/远程桌面基础设施！开源 TeamViewer / Citrix 替代品。
 
 ## 操作系统
 - [x] [Rust for Windows](https://github.com/microsoft/windows-rs)：Rust 开发人员调用 Windows API 提供了一种自然而惯用的方式
@@ -111,8 +114,9 @@
 - [x] [embassy](https://github.com/embassy-rs/embassy)：现代嵌入式框架，使用 Rust 和异步
 - [x] [wezterm](https://github.com/wez/wezterm)：在 Rust 中实现的 GPU 加速跨平台终端仿真器和多路复用器
 
-## Linux
+## Linux & Shell
 - [x] [exa](https://github.com/ogham/exa)：Rust 版本 “ls” 现代替代品
+- [x] [LSD](https://github.com/lsd-rs/lsd)：这个项目是 GNU ls 的重写，增加了许多功能，如颜色、图标、树视图、更多格式选项等
 - [x] [Atuin](https://github.com/ellie/atuin)：是一个强大的替代shell history的工具，它使用 SQLite 数据库记录命令的上下文，并提供可选的完全加密同步。
 - [x] [Tantivy](https://github.com/quickwit-oss/tantivy)：Tantivy 是一个受 Apache Lucene 启发并用 Rust 编写的全文搜索引擎库
 
