@@ -52,6 +52,7 @@
 
 ## 基础库
 - [x] [hyper](https://github.com/hyperium/hyper)：Rust 的 HTTP 库
+- [x] [Fast Node Manager](https://github.com/Schniz/fnm?utm_source)：Rust 开发的快速简单的 Node.js 版本管理器 Fast Node Manager
 
 ## Server
 - [x] [Tonic](https://github.com/hyperium/tonic)：Tonic 是一个 gRPC over HTTP/2 实现，专注于高性能、互操作性和灵活性。
@@ -158,6 +159,7 @@
 - [x] [Jetro](https://github.com/mitghi/jetro)：Jetro 是一个提供自定义 DSL 的库，用于转换、查询和比较 JSON 格式的数据。 它易于使用和扩展。
 - [x] [skim](https://github.com/lotabout/skim)：Rust 实现的强大模糊查找工具
 - [x] [CodeCursor](https://github.com/Helixform/CodeCursor)：Cursor 是一款基于 GPT-4 的 AI 代码编辑器。 您可以使用它编写、编辑和讨论您的代码。
+- [x] [Sniffnet](https://github.com/GyulyVGC/sniffnet?utm_source)：Rust 实现的用来监控应用程序的网络
 # 其他
 - [x] [Roc](https://github.com/roc-lang/roc)：Roc 的目标是成为一种快速、友好的函数式语言
 - [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：用 Rust 实现，提供最常用的分词器的实现，重点是性能和多功能性。
