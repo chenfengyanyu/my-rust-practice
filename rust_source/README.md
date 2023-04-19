@@ -42,6 +42,8 @@
 - [x] [zola](https://github.com/getzola/zola)：单个二进制文件中的快速静态站点生成器
 - [x] [Typst](https://github.com/typst/typst)：是一种新的基于标记的排版系统，其设计与 LaTeX 一样强大，同时更易于学习和使用
 - [x] [Axum](https://github.com/tokio-rs/axum)：axum 是一个 web 应用程序框架，专注于人体工程学和模块化。
+- [x] [OXC](https://github.com/Boshen/oxc)：Oxidation Compiler 正在为 JavaScript / TypeScript 语言创建一套工具，涉及到 AST、Parser、Linter、Minifier等
+- [x] [floem](https://github.com/lapce/floem)：Rust UI 库
 
 ## WebAssembly
 - [x] [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)：your favorite rust -> wasm workflow tool!
@@ -166,3 +168,4 @@
 - [x] [potatis](https://github.com/henrikpersson/potatis)：Rust 中的 MOS-6502 和 NES 模拟器（SDL/WebAssembly/Android/Embedded/Cloud）
 - [x] [Sui](https://github.com/MystenLabs/sui)：Sui 是下一代智能合约平台，具有高吞吐量、低延迟和由 Move 编程语言提供支持的面向资产的编程模型。
 - [x] [Typst LSP](https://github.com/nvarner/typst-lsp)：全新的 Typst 语言服务器，以及 VS Code 扩展
+- [x] [Lemmy](https://github.com/LemmyNet/lemmy)：一个联邦宇宙的链接聚合器和论坛
