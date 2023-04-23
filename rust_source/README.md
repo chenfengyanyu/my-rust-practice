@@ -51,6 +51,7 @@
 - [x] [uutils coreutils](https://github.com/uutils/coreutils)：GNU coreutils 的跨平台 Rust 重写
 - [x] [Ruffle](https://github.com/ruffle-rs/ruffle)：Ruffle 是用 Rust 编程语言编写的 Adobe Flash Player 模拟器（Ruffle 使用 WebAssembly 针对桌面和 Web）
 - [x] [wasmtime](https://github.com/bytecodealliance/wasmtime)：WebAssembly 的快速安全运行时
+- [x] [Kuasar](https://github.com/kuasar-io/kuasar)：高效的容器运行时，提供云原生、全场景多沙箱容器解决方案
 
 ## 基础库
 - [x] [hyper](https://github.com/hyperium/hyper)：Rust 的 HTTP 库
@@ -132,6 +133,7 @@
 ## 区块链
 - [x] [Web-Scale](https://github.com/solana-labs/solana)：Web-Scale 区块链，用于快速、安全、可扩展、去中心化的应用程序和市场
 - [x] [lighthouse](https://github.com/sigp/lighthouse)：一个开源的以太坊共识客户端，用 Rust 编写并由 Sigma Prime 维护。
+- [x] [The Move Language](https://github.com/move-language/move)：Move 旨在成为一种与平台无关的语言，以支持跨具有截然不同的数据和执行模型的不同区块链的通用库、工具和开发人员社区。
 
 # 工具集
 - [x] [RustDesk](https://github.com/rustdesk/rustdesk/blob/master/docs/README-ZH.md)：远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。
@@ -162,6 +164,7 @@
 - [x] [skim](https://github.com/lotabout/skim)：Rust 实现的强大模糊查找工具
 - [x] [CodeCursor](https://github.com/Helixform/CodeCursor)：Cursor 是一款基于 GPT-4 的 AI 代码编辑器。 您可以使用它编写、编辑和讨论您的代码。
 - [x] [Sniffnet](https://github.com/GyulyVGC/sniffnet?utm_source)：Rust 实现的用来监控应用程序的网络
+- [x] [Flowistry](https://github.com/willcrichton/flowistry)：Flowistry 是 Rust 的 IDE 插件，可帮助您专注于相关代码
 # 其他
 - [x] [Roc](https://github.com/roc-lang/roc)：Roc 的目标是成为一种快速、友好的函数式语言
 - [x] [tokenizers](https://github.com/huggingface/tokenizers/tree/main/tokenizers)：用 Rust 实现，提供最常用的分词器的实现，重点是性能和多功能性。
