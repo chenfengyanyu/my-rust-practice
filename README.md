@@ -1,3 +1,5 @@
+
+
 # my-rust-practice
 - 【基础】内容参考《Rust 权威指南》，作为练习记录。若代码有需要改进的地方还望不吝赐教，一起相互学习，共同进步！
 - 【实践】来源于学习、工作以及其他辅助材料
@@ -131,7 +133,7 @@
 ### 2.6 捕获快捷键
 - [x] 【2022.11.22】[signal_handling](./signal_handling/) 处理快捷键 Ctrl+C
 - [x] 【2022.11.22】[ctrlc_demo](./ctrlc_demo/) 使用三方库 ctrlc 捕获键位
-- [x] 【2022.11.26】[handle_other_signals](./handle_signals/) 捕获其他类型的信号(Crates: Signal-hook)
+- [x] 【2022.11.26】[handle_other_signals](./handle_signals/) 捕获其他类型的信号(Crates: signal-hook)
 - [x] 【2022.11.26】[use_channel](./use_channel/) 使用 channel 通道进行信号处理(Crates: crossbeam-channel)
 
 ### 2.7 系统信息
@@ -165,6 +167,3 @@
 ### 3.3 Rust 文档注释
 - [x] 【2022.11.19】[rust_docs](./rust_docs/) 编写文档示例
 ![docs demo](https://github.com/chenfengyanyu/my-rust-practice/blob/main/rust_docs/src/image/show.png?raw=true)
-
-
-
